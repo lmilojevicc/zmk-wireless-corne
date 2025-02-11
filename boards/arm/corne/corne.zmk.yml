@@ -1,0 +1,17 @@
+file_format: "1"
+id: corne
+name: Corne
+url: https://github.com/lmilojevicc/zmk-wireless-corne
+type: board
+arch: arm
+features:
+  - keys
+  - display
+  - underglow
+  - encoder
+outputs:
+  - usb
+  - ble
+siblings:
+  - corne_left
+  - corne_right

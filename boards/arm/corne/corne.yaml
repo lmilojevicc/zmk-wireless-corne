@@ -1,0 +1,18 @@
+identifier: corne
+name: Corne
+url: https://github.com/lmilojevicc/zmk-wireless-corne
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
+  - gpio
+  - spi
