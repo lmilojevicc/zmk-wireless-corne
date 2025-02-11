@@ -21,8 +21,8 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2500  // 600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 / {
     behaviors {
@@ -53,51 +53,61 @@
 
         esc {
             bindings = <&kp ESCAPE>;
+            timeout-ms = <75>;
             key-positions = <23 24>;
         };
 
         delete_word {
             bindings = <&delete_word_macos>;
+            timeout-ms = <75>;
             key-positions = <17 23>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
+            timeout-ms = <75>;
             key-positions = <15 16 4>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
+            timeout-ms = <75>;
             key-positions = <25 24 8>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
+            timeout-ms = <75>;
             key-positions = <16 15 17>;
         };
 
-        right_bracke {
+        right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
+            timeout-ms = <75>;
             key-positions = <23 24 25>;
         };
 
         left_curly {
             bindings = <&kp LEFT_BRACE>;
+            timeout-ms = <75>;
             key-positions = <15 16 32>;
         };
 
         right_curly {
             bindings = <&kp RBRC>;
+            timeout-ms = <75>;
             key-positions = <24 25 37>;
         };
 
         equlas_arrow {
             bindings = <&equals_arrow>;
+            timeout-ms = <75>;
             key-positions = <14 15 16 17>;
         };
 
         minus_arrow {
             bindings = <&minus_arrow>;
+            timeout-ms = <75>;
             key-positions = <23 24 25 26>;
         };
     };
