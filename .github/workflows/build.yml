@@ -4,6 +4,8 @@ on:
   push:
     paths-ignore:
       - "keymap-drawer/**"
+      - "**.md"
+      - ".gitignore"
 
 jobs:
   build:
