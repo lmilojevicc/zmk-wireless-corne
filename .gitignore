@@ -3,3 +3,5 @@ zmk/
 modules/
 tools/
 .west/
+zephyr/*
+!zephyr/module.yml
