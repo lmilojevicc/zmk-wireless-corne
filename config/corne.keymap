@@ -141,17 +141,17 @@
 
         lt {
             bindings = <&kp LESS_THAN>;
-            key-positions = <16 32 24 37>;
+            key-positions = <15 3 4>;
         };
 
         gt {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <8 24 16 4>;
+            key-positions = <8 9 25>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <15 16 24 25>;
+            key-positions = <2 3 2 3 4>;
         };
     };
 
