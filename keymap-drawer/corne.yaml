@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOLS}
   - {t: '$$mdi:keyboard-return$$', h: MEDIA&MOVMENT}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   SYMBOLS:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -197,33 +197,31 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [23, 24]
-  k: $$mdi:keyboard-esc$$
 - p: [17, 23]
   k: '&delete_word_macos'
-- p: [44, 4]
+- p: [4, 15, 16]
   k: (
-- p: [45, 8]
+- p: [8, 24, 25]
   k: )
-- p: [44, 17]
+- p: [17, 16, 15]
   k: {t: '[', s: '{'}
-- p: [45, 23]
+- p: [23, 24, 25]
   k: {t: ']', s: '}'}
-- p: [44, 32]
+- p: [32, 15, 16]
   k: '{'
-- p: [45, 37]
+- p: [37, 24, 25]
   k: '}'
 - p: [14, 15, 16]
   k: '&equals_arrow'
 - p: [24, 25, 26]
   k: '&minus_arrow'
 - p: [2, 16, 32]
-  k: \
+  k: {t: \, s: '|'}
 - p: [37, 24, 10]
   k: {t: /, s: '?'}
-- p: [15, 3, 44]
+- p: [16, 32, 24, 37]
   k: <
-- p: [45, 9, 25]
+- p: [8, 24, 16, 4]
   k: '>'
 - p: [15, 16, 24, 25]
   k: '|'
