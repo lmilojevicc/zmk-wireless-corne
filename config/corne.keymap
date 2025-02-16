@@ -43,6 +43,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <30>;
         };
 
@@ -59,7 +60,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&sl>;  
+            bindings = <&kp>, <&sl>;
         };
 
         caps_word_mod: caps_word_mod {
@@ -89,49 +90,74 @@
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             timeout-ms = <75>;
-            key-positions = <15 16 4>;
+            key-positions = <44 4>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             timeout-ms = <75>;
-            key-positions = <25 24 8>;
+            key-positions = <45 8>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             timeout-ms = <75>;
-            key-positions = <16 15 17>;
+            key-positions = <44 17>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             timeout-ms = <75>;
-            key-positions = <23 24 25>;
+            key-positions = <45 23>;
         };
 
         left_curly {
             bindings = <&kp LEFT_BRACE>;
             timeout-ms = <75>;
-            key-positions = <15 16 32>;
+            key-positions = <44 32>;
         };
 
         right_curly {
             bindings = <&kp RBRC>;
             timeout-ms = <75>;
-            key-positions = <24 25 37>;
+            key-positions = <45 37>;
         };
 
         equlas_arrow {
             bindings = <&equals_arrow>;
             timeout-ms = <75>;
-            key-positions = <14 15 16 17>;
+            key-positions = <14 15 16>;
         };
 
         minus_arrow {
             bindings = <&minus_arrow>;
             timeout-ms = <75>;
-            key-positions = <23 24 25 26>;
+            key-positions = <24 25 26>;
+        };
+
+        backslash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <2 16 32>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <37 24 10>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <15 3 44>;
+        };
+
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <45 9 25>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <15 16 24 25>;
         };
     };
 
@@ -177,9 +203,9 @@
             display-name = "SYMBOLS";
             bindings = <
 &trans  &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                                     &msc SCRL_UP                     &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &trans
-&trans  &kp UNDERSCORE   &kp MINUS    &kp PLUS  &kp EQUAL   &kp GRAVE                  &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &kp TILDE              &trans
+&trans  &kp UNDERSCORE   &kp MINUS    &kp PLUS  &kp EQUAL   &kp GRAVE                  &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp TILDE  &none          &kp COMMA     &kp DOT               &kp SLASH              &trans
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp C_MUTE                    &msc SCRL_DOWN                   &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-                                      &trans    &trans      &trans                                                                      &trans     &kp DOT        &trans
+                                      &trans    &trans      &trans                                                                      &trans     &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -199,10 +225,10 @@
 
         mouse {
             bindings = <
-&to 0  &trans  &trans          &msc SCRL_UP    &trans           &trans                       &trans          &trans     &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MCLK            &trans  &trans  &trans  &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans     &trans            &trans          &trans     &trans          &trans          &trans           &trans  &trans
-                                &trans          &mkp MB4         &mkp LCLK                                    &mkp RCLK  &mkp MB5        &trans
+&to 0   &trans  &trans          &msc SCRL_UP    &trans           &kp ESCAPE                    &trans          &kp ESCAPE  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MCLK             &trans  &trans  &trans  &mkp MCLK   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans      &trans            &trans          &trans      &trans          &trans          &trans           &trans  &trans
+                                &trans          &mkp MB4         &mkp LCLK                                     &mkp RCLK   &mkp MB5        &trans
             >;
         };
     };
