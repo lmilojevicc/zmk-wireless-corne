@@ -72,11 +72,11 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-right$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
   - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MEDIA&MOVMENT:
   - RGB HUD
@@ -153,9 +153,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,19 +201,29 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [17, 23]
   k: '&delete_word_macos'
-- p: [15, 16, 4]
+- p: [44, 4]
   k: (
-- p: [25, 24, 8]
+- p: [45, 8]
   k: )
-- p: [16, 15, 17]
+- p: [44, 17]
   k: {t: '[', s: '{'}
-- p: [23, 24, 25]
+- p: [45, 23]
   k: {t: ']', s: '}'}
-- p: [15, 16, 32]
+- p: [44, 32]
   k: '{'
-- p: [24, 25, 37]
+- p: [45, 37]
   k: '}'
-- p: [14, 15, 16, 17]
+- p: [14, 15, 16]
   k: '&equals_arrow'
-- p: [23, 24, 25, 26]
+- p: [24, 25, 26]
   k: '&minus_arrow'
+- p: [2, 16, 32]
+  k: \
+- p: [37, 24, 10]
+  k: {t: /, s: '?'}
+- p: [15, 3, 44]
+  k: <
+- p: [45, 9, 25]
+  k: '>'
+- p: [15, 16, 24, 25]
+  k: '|'
