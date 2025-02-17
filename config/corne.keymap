@@ -151,7 +151,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <2 3 2 3 4>;
+            key-positions = <30 31 32>;
         };
     };
 
