@@ -645,9 +645,10 @@ rect.held, rect.combo.held {
 <text x="784" y="51" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-13">
-<path d="M185,32 l49,2" class="combo"/>
-<rect rx="6" ry="6" x="171" y="19" width="28" height="26" class="combo"/>
-<text x="185" y="32" class="combo tap">|</text>
+<path d="M196,144 l-37,1" class="combo"/>
+<path d="M196,144 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="131" width="28" height="26" class="combo"/>
+<text x="196" y="144" class="combo tap">|</text>
 </g>
 </g>
 </g>
@@ -992,9 +993,10 @@ rect.held, rect.combo.held {
 <text x="784" y="51" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-13">
-<path d="M185,32 l49,2" class="combo"/>
-<rect rx="6" ry="6" x="171" y="19" width="28" height="26" class="combo"/>
-<text x="185" y="32" class="combo tap">|</text>
+<path d="M196,144 l-37,1" class="combo"/>
+<path d="M196,144 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="131" width="28" height="26" class="combo"/>
+<text x="196" y="144" class="combo tap">|</text>
 </g>
 </g>
 </g>
@@ -1357,9 +1359,10 @@ rect.held, rect.combo.held {
 <text x="784" y="51" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-13">
-<path d="M185,32 l49,2" class="combo"/>
-<rect rx="6" ry="6" x="171" y="19" width="28" height="26" class="combo"/>
-<text x="185" y="32" class="combo tap">|</text>
+<path d="M196,144 l-37,1" class="combo"/>
+<path d="M196,144 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="131" width="28" height="26" class="combo"/>
+<text x="196" y="144" class="combo tap">|</text>
 </g>
 </g>
 </g>
@@ -1699,9 +1702,10 @@ rect.held, rect.combo.held {
 <text x="784" y="51" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-13">
-<path d="M185,32 l49,2" class="combo"/>
-<rect rx="6" ry="6" x="171" y="19" width="28" height="26" class="combo"/>
-<text x="185" y="32" class="combo tap">|</text>
+<path d="M196,144 l-37,1" class="combo"/>
+<path d="M196,144 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="131" width="28" height="26" class="combo"/>
+<text x="196" y="144" class="combo tap">|</text>
 </g>
 </g>
 </g>
