@@ -92,3 +92,12 @@ If you encounter an error related to missing `elftools`, follow these steps:
    ```bash
    source .venv/bin/activate
    ```
+
+## Rebuilding Firmware After Initial Setup
+
+Once you've completed the initial configuration steps, you can easily rebuild the firmware using the provided `rebuild.sh` script.
+
+```
+chmod +x rebuild.sh
+./rebuild.sh
+```
