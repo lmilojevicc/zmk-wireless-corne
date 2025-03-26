@@ -196,10 +196,10 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-&trans  &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                                     &msc SCRL_UP                     &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &trans
-&trans  &kp UNDERSCORE   &kp MINUS    &kp PLUS  &kp EQUAL   &kp GRAVE                  &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp TILDE  &none          &kp COMMA     &kp DOT               &kp SLASH              &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp C_MUTE                    &msc SCRL_DOWN                   &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-                                      &trans    &trans      &trans                                                                      &trans     &trans         &trans
+&trans  &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                                     &msc SCRL_UP                     &kp N6       &kp N7         &kp N8        &kp N9                &kp N0                 &trans
+&trans  &kp UNDERSCORE   &kp MINUS    &kp PLUS  &kp EQUAL   &kp GRAVE                  &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp TILDE    &none          &kp SLASH     &kp DOT               &kp COMMA              &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp C_MUTE                    &msc SCRL_DOWN                   &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+                                      &trans    &trans      &trans                                                                      &kp SPACE    &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -208,9 +208,9 @@
         media_rgb_arrows {
             display-name = "MEDIA&MOVMENT";
             bindings = <
-&rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD   &rgb_ug RGB_SPI                            &mmv MOVE_UP                     &trans      &trans          &kp UP_ARROW  &trans     &bt BT_PRV         &bt BT_NXT
-&trans           &kp C_VOL_DN     &kp C_VOLUME_UP  &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_MUTE  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &ext_power EP_OFF  &ext_power EP_ON
-&trans           &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG   &rgb_ug RGB_EFF  &trans                    &mmv MOVE_DOWN                   &trans      &trans          &trans        &trans     &trans             &trans
+&rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD   &rgb_ug RGB_SPI                            &mmv MOVE_UP                     &trans      &trans          &kp UP_ARROW   &bt BT_CLR    &bt BT_PRV         &bt BT_NXT
+&trans           &kp C_VOL_DN     &kp C_VOLUME_UP  &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_MUTE  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT     &ext_power EP_OFF  &ext_power EP_ON
+&trans           &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG   &rgb_ug RGB_EFF  &trans                    &mmv MOVE_DOWN                   &trans      &trans          &trans         &trans        &trans             &trans
                                                    &trans           &trans            &trans                                                                      &trans      &trans          &trans
             >;
 
