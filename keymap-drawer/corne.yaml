@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYMBOLS}
   - {t: '$$mdi:keyboard-return$$', h: MEDIA&MOVMENT}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
   SYMBOLS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
