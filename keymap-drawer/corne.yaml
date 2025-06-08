@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   QWERTY:
-  - {t: mouse, h: toggle}
+  - {t: MOUSE, h: toggle}
   - Q
   - W
   - E
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  mouse:
+  MOUSE:
   - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
