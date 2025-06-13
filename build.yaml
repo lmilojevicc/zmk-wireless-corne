@@ -1,8 +1,8 @@
 ---
 include:
-  - board: corne_left
-    shield: nice_view
-    #snippet: zmk-usb-logging    # Uncomment to log over USB.
+  # - board: corne_left
+  #   shield: nice_view
+  #   snippet: zmk-usb-logging    # Uncomment to log over USB.
   - board: corne_right
     shield: nice_view
     #snippet: zmk-usb-logging

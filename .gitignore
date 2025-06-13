@@ -5,3 +5,4 @@ tools/
 .west/
 zephyr/*
 !zephyr/module.yml
+**/.DS_Store
