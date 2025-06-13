@@ -1,13 +1,19 @@
 # Corne ZMK Configuration
 
-**This keyboard is not the same as [foostan's Corne](https://github.com/foostan/crkbd). It will not work with standard `corne` firmware.**
+> [!WARNING] 
+> **This keyboard is not the same as [foostan's Corne](https://github.com/foostan/crkbd). It will not work with standard `corne` firmware.**
 
 ## Setup Instructions
 
-1. Fork this repository
-2. Enable GitHub Actions in your forked repository
-3. Navigate to Actions tab and enable workflows
-4. Edit files manually and commit them or use [keymap editor](https://nickcoutsos.github.io/keymap-editor/)
+The easiest way to get started is by letting GitHub build the firmware for you.
+
+1. **Fork this Repository:** Click the "Fork" button at the top-right of this page.
+2. **Enable GitHub Actions:** In your newly forked repository, navigate to the "Actions" tab. If prompted, click the button to enable workflows.
+3. **Customize Your Keymap:** You can edit your keymap in a few ways:
+   - Directly edit the `config/corne.keymap` file.
+   - Use the [ZMK Studio](https://zmk.studio/) for live changes.
+   - Use the visual [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
+4. **Commit \& Download:** Once you commit your changes, the GitHub Action will automatically build your new firmware. You can download it from the "Actions" tab once the build is complete.
 
 ## Keymap Diagram
 
@@ -15,7 +21,7 @@
 
 ## Building Firmware Locally
 
-### Set-up local enviroment
+### Set-up local environment
 
 1. Create a new virtual environment:
 
@@ -54,50 +60,42 @@ west zephyr-export
 pip install -r zephyr/scripts/requirements-base.txt
 ```
 
-7. [ Install Zephyr SDK. ](https://docs.zephyrproject.org/3.5.0/develop/getting_started/index.html#install-zephyr-sdk)
+7. Install the Zephyr SDK: Follow the official instructions to [install the Zephyr SDK](https://docs.zephyrproject.org/3.5.0/develop/getting_started/index.html#install-zephyr-sdk), which contains the toolchains needed to compile the firmware.
 
-### Build Left
+### Building Firmware After Initial Setup
 
-```bash
-west build -s zmk/app -d build/left -b "corne_left" -- -DSHIELD="nice_view" -DZMK_EXTRA_MODULES="<absolute-path>/zmk-wireless-corne/zephyr" -DZMK_CONFIG="<absolute-path>/zmk-wireless-corne/config"
+Once you've completed the initial configuration steps, you can easily build the firmware using the provided `build.sh` script.
+
+```
+chmod +x build.sh
+./build.sh
 ```
 
-### Build Right
+## Troubleshooting Common Issues
+
+### Missing packages
+
+During the build process, you might see an error about missing Python packages, such as `elftools` or Google `protobuf`.
 
 ```bash
-west build -s zmk/app -d build/right -b "corne_right" -- -DSHIELD="nice_view" -DZMK_EXTRA_MODULES="<absolute-path>/zmk-wireless-corne/zephyr" -DZMK_CONFIG="<absolute-path>/zmk-wireless-corne/config"
+         **********************************************************************
+         *** Could not import the Google protobuf Python libraries          ***
+         ***                                                                ***
+         *** Easiest solution is often to install the dependencies via pip: ***
+         ***    pip install protobuf grpcio-tools                           ***
+         **********************************************************************
 ```
 
-### Move Compiled firmware to build folder
-
-```bash
-mv build/left/zephyr/zmk.uf2 build/nice_left
-mv build/right/zephyr/zmk.uf2 build/nice_right
-```
-
-### Troubleshooting Common Issues
-
-#### Missing `elftools` Package
-
-If you encounter an error related to missing `elftools`, follow these steps:
-
-1. Install the required package (it might say it is already installed but proceed with next step):
-
-   ```bash
-   pip install pyelftools
-   ```
-
-2. Activate your Python virtual environment again (for some reason this fixes it):
+1. Activate your Python virtual:
 
    ```bash
    source .venv/bin/activate
    ```
 
-## Rebuilding Firmware After Initial Setup
+1. Install the required package:
 
-Once you've completed the initial configuration steps, you can easily rebuild the firmware using the provided `rebuild.sh` script.
+   ```bash
+   pip install pyelftools protobuf grpcio-tools
+   ```
 
-```
-chmod +x rebuild.sh
-./rebuild.sh
-```
+1. **Re-run** the build script. If the issue persists, try deactivating and reactivating the virtual environment (`deactivate` then `source .venv/bin/activate`).
