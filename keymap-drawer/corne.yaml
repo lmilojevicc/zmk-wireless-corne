@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  QWERTY:
-  - {t: MOUSE, h: toggle}
+  Base:
+  - {t: Mouse, h: toggle}
   - Q
   - W
   - E
@@ -45,11 +45,11 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOLS}
-  - {t: '$$mdi:keyboard-return$$', h: MEDIA&MOVMENT}
+  - {t: '$$mdi:keyboard-space$$', h: Symbols}
+  - {t: '$$mdi:keyboard-return$$', h: Fnavol}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
-  SYMBOLS:
+  Symbols:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -98,20 +98,20 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MEDIA&MOVMENT:
-  - RGB HUD
-  - RGB HUI
-  - RGB BRD
-  - RGB BRI
-  - RGB SPD
-  - RGB SPI
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-right$$'}
+  Fnavol:
+  - $$mdi:keyboard-f1$$
+  - $$mdi:keyboard-f2$$
+  - $$mdi:keyboard-f3$$
+  - $$mdi:keyboard-f4$$
+  - $$mdi:keyboard-f5$$
+  - $$mdi:keyboard-f6$$
+  - $$mdi:keyboard-f7$$
+  - $$mdi:keyboard-f7$$
+  - $$mdi:keyboard-f8$$
+  - $$mdi:keyboard-f9$$
+  - $$mdi:keyboard-f10$$
+  - $$mdi:keyboard-f11$$
+  - $$mdi:keyboard-f12$$
   - {t: ▽, type: trans}
   - $$mdi:volume-medium$$
   - $$mdi:volume-high$$
@@ -121,18 +121,18 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:volume-off$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - EP OFF
-  - EP ON
+  - $$mdi:volume-off$$
   - {t: ▽, type: trans}
-  - RGB SAD
-  - RGB SAI
-  - RGB EFR
-  - RGB TOG
-  - RGB EFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: ▽, type: trans}
@@ -147,8 +147,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
-  - {t: QWERTY, h: toggle}
+  Mouse:
+  - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:pan-up$$
@@ -196,6 +196,55 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: ▽, type: trans}
+  Aura:
+  - '&studio_unlock'
+  - {t: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: ▽, type: trans}
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
+  - RGB BRD
+  - RGB BRI
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-right$$'}
+  - EP OFF
+  - EP ON
+  - $$mdi:bluetooth-off$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB OFF
+  - RGB ON
+  - RGB EFR
+  - RGB EFF
+  - RGB SPD
+  - RGB SPI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [17, 23]
   k: '&delete_word_macos'
@@ -215,6 +264,8 @@ combos:
   k: '&equals_arrow'
 - p: [24, 25, 26]
   k: '&minus_arrow'
+- p: [14, 26]
+  k: '&colon_equals'
 - p: [2, 16, 32]
   k: \
 - p: [37, 24, 10]
@@ -225,3 +276,5 @@ combos:
   k: '>'
 - p: [30, 31, 32]
   k: '|'
+- p: [42, 47]
+  k: Aura
