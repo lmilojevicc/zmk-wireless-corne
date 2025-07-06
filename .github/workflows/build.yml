@@ -6,6 +6,7 @@ on:
       - "keymap-drawer/**"
       - "**.md"
       - ".gitignore"
+      - "build.sh"
 
 jobs:
   build:

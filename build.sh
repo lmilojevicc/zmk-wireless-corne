@@ -13,7 +13,7 @@ west update
 west zephyr-export
 
 # Left side with Studio configuration
-west build -p -s zmk/app -d build/left -b corne_left -- \
+west build -s zmk/app -d build/left -b corne_left -- \
   -DSHIELD="nice_view" \
   -DSNIPPET="studio-rpc-usb-uart" \
   -DCONFIG_ZMK_STUDIO=y \
@@ -25,7 +25,7 @@ west build -p -s zmk/app -d build/left -b corne_left -- \
 # -DCONFIG_ZMK_BLE=y
 
 # Right side standard build
-west build -p -s zmk/app -d build/right -b corne_right -- \
+west build -s zmk/app -d build/right -b corne_right -- \
   -DSHIELD="nice_view" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
