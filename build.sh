@@ -9,24 +9,21 @@ BOARD_RIGHT="corne_right"
 
 source .venv/bin/activate
 
+# Update west to pull the nice-view-gem module
 west update
 west zephyr-export
 
 # Left side with Studio configuration
-west build -s zmk/app -d build/left -b corne_left -- \
-  -DSHIELD="nice_view" \
+west build -p -s zmk/app -d build/left -b corne_left -- \
+  -DSHIELD="nice_epaper" \
   -DSNIPPET="studio-rpc-usb-uart" \
   -DCONFIG_ZMK_STUDIO=y \
   -DCONFIG_ZMK_STUDIO_LOCKING=n \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
-# Options if BLE/BT error occurs
-# -DCONFIG_BT=y
-# -DCONFIG_ZMK_BLE=y
-
 # Right side standard build
-west build -s zmk/app -d build/right -b corne_right -- \
-  -DSHIELD="nice_view" \
+west build -p -s zmk/app -d build/right -b corne_right -- \
+  -DSHIELD="nice_epaper" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 mkdir -p build/firmware
