@@ -198,6 +198,12 @@
             #binding-cells = <0>;
             bindings = <&kp COLON &kp EQUAL>;
         };
+
+        macos_homerow: macos_homerow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(SPACE)) &to 0>;
+        };
     };
 
     keymap {
@@ -232,7 +238,7 @@
             bindings = <
   &kp F1   &kp F2                 &kp F3                 &kp F4           &kp F5             &kp F6                                         &kp F7                                 &kp F7           &kp F8     &kp F9         &kp F10     &kp F11      &kp F12
   &trans   &kp C_VOL_DN           &kp C_VOLUME_UP        &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT                    &mmv MOVE_LEFT   &mkp LCLK        &mmv MOVE_RIGHT       &kp LEFT_ARROW   &kp DOWN   &kp UP_ARROW   &kp RIGHT   &kp C_MUTE   &trans
-  &trans   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   &trans           &trans             &trans           &trans                        &mmv MOVE_DOWN                         &trans           &trans     &trans         &trans      &trans       &trans
+  &trans   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   &trans           &trans             &trans           &trans                        &mmv MOVE_DOWN                         &kp HOME         &trans     &trans         &kp END     &trans       &trans
                                                          &trans           &trans             &trans                                                                                &trans           &trans     &trans
             >;
 
@@ -242,7 +248,7 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-  &to 0    &trans   &trans           &msc SCRL_UP     &trans            &kp ESCAPE                             &trans                &kp ESCAPE   &trans           &mmv MOVE_UP     &trans            &trans   &trans
+  &to 0    &trans   &trans           &msc SCRL_UP     &macos_homerow    &kp ESCAPE                             &trans                &kp ESCAPE   &trans           &mmv MOVE_UP     &trans            &trans   &trans
   &trans   &trans   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_RIGHT   &mkp MCLK                     &trans   &trans   &trans       &mkp MCLK    &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &trans   &trans
   &trans   &trans   &trans           &trans           &trans            &trans           &trans                &trans                &trans       &trans           &trans           &trans            &trans   &trans
                                      &trans           &mkp MB4          &mkp LCLK                                                    &mkp RCLK    &mkp MB5         &trans
