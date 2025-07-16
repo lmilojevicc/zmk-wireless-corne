@@ -166,6 +166,16 @@
             bindings = <&mo 4>;
             key-positions = <42 47>;
         };
+
+        tmux_prefix {
+            bindings = <&kp LC(F1)>;
+            key-positions = <15 26>;
+        };
+
+        terminal_prefix {
+            bindings = <&kp LC(F2)>;
+            key-positions = <25 26>;
+        };
     };
 
     macros {
