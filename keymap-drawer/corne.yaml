@@ -278,3 +278,7 @@ combos:
   k: '|'
 - p: [42, 47]
   k: Aura
+- p: [15, 26]
+  k: Ctl+$$mdi:keyboard-f1$$
+- p: [25, 26]
+  k: Ctl+$$mdi:keyboard-f2$$
