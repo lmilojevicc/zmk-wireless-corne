@@ -26,7 +26,7 @@ west update
 west zephyr-export
 
 # Left side with Studio configuration
-west build -p -s zmk/app -d build/left -b corne_left $PRISTINE_FLAG -- \
+west build $PRISTINE_FLAG -s zmk/app -d build/left -b corne_left -- \
   -DSHIELD="nice_epaper" \
   -DSNIPPET="studio-rpc-usb-uart" \
   -DCONFIG_ZMK_STUDIO=y \
@@ -34,7 +34,7 @@ west build -p -s zmk/app -d build/left -b corne_left $PRISTINE_FLAG -- \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 # Right side standard build
-west build -p -s zmk/app -d build/right -b corne_right $PRISTINE_FLAG -- \
+west build $PRISTINE_FLAG -s zmk/app -d build/right -b corne_right -- \
   -DSHIELD="nice_epaper" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
