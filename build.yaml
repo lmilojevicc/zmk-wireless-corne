@@ -1,11 +1,9 @@
 ---
 include:
   - board: corne_right
-    shield: nice_view_gem
+    shield: nice_epaper
   - board: corne_left
-    shield: nice_view_gem
+    shield: nice_epaper
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: corne_studio_left
-  - board: corne_left
-    shield: settings_reset
