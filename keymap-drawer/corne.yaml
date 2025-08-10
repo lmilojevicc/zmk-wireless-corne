@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:volume-medium$$
   - $$mdi:volume-high$$
-  - PREVIOUS
+  - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -282,3 +282,5 @@ combos:
   k: Ctl+$$mdi:keyboard-f1$$
 - p: [25, 26]
   k: Ctl+$$mdi:keyboard-f2$$
+- p: [23, 26]
+  k: Ctl+$$mdi:keyboard-f3$$
