@@ -176,6 +176,11 @@
             bindings = <&kp LC(F2)>;
             key-positions = <25 26>;
         };
+
+        leader_key_mac_os {
+            bindings = <&kp LC(F3)>;
+            key-positions = <23 26>;
+        };
     };
 
     macros {
