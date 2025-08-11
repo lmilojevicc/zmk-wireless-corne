@@ -40,8 +40,19 @@ draw_config:
     mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
     mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
     material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+    fa_solid: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/solid/{}.svg
+    fa_regular: https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/regular/{}.svg
     phosphor: https://unpkg.com/@phosphor-icons/core/assets/{}.svg
-    fa: https://unpkg.com/@fortawesome/fontawesome-free/svgs/{}.svg
+    simple_icons: https://raw.githubusercontent.com/simple-icons/simple-icons/refs/heads/develop/icons/{}.svg
+    lucide: https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/{}.svg
+    feather: https://raw.githubusercontent.com/feathericons/feather/refs/heads/main/icons/{}.svg
+  svg_extra_style: |
+    .glyph:not(.simple_icons\:tmux),
+    .glyph:not(.simple_icons\:tmux) * {
+      color: white !important;
+      fill: white !important;
+      stroke: white !important;
+    }
   use_local_cache: true
 
 parse_config:
@@ -49,77 +60,107 @@ parse_config:
   sticky_label: $$mdi:gesture-tap-hold$$
 
   raw_binding_map:
-    # Mouse
+    "&equals_arrow":
+      tap: "=>"
+    "&minus_arrow":
+      tap: "->"
+    "&colon_equals":
+      tap: ":="
+
+    # Mouse Scroll
     "&msc SCRL_UP":
-      tap: $$mdi:pan-up$$
-      hold: ''
+      hold: $$lucide:chevron-up$$
       shifted: ''
+      tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_DOWN":
-      tap: $$mdi:pan-down$$
-      hold: ''
+      hold: $$lucide:chevron-down$$
       shifted: ''
+      tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_LEFT":
-      tap: $$mdi:pan-left$$
-      hold: ''
+      hold: $$lucide:chevron-left$$
       shifted: ''
+      tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_RIGHT":
-      tap: $$mdi:pan-right$$
-      hold: ''
+      hold: $$lucide:chevron-right$$
       shifted: ''
+      tap: $$phosphor:regular/mouse-simple$$
+
+    # Mouse Cursor Movement
     "&mmv MOVE_LEFT":
-      tap: $$mdi:menu-left$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      hold: $$lucide:chevron-left$$
+      shifted: ''
+      tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_RIGHT":
-      tap: $$mdi:menu-right$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      hold: $$lucide:chevron-right$$
+      shifted: ''
+      tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_UP":
-      tap: $$mdi:menu-up$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      hold: $$lucide:chevron-up$$
+      shifted: ''
+      tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_DOWN":
-      tap: $$mdi:menu-down$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      hold: $$lucide:chevron-down$$
+      shifted: ''
+      tap: $$lucide:mouse-pointer-2$$
+
+    # Mouse Clicks
     "&mkp LCLK":
-      tap: $$mdi:mouse-left-click-outline$$
+      tap: $$phosphor:regular/mouse-left-click$$
     "&mkp RCLK":
-      tap: $$mdi:mouse-right-click-outline$$
+      tap: $$phosphor:regular/mouse-right-click$$
     "&mkp MCLK":
-      tap: $$mdi:mouse-scroll-wheel$$
+      tap: $$phosphor:regular/mouse-middle-click$$
+    "&mkp MB1":
+      tap: $$phosphor:regular/mouse-left-click$$
+    "&mkp MB2":
+      tap: $$phosphor:regular/mouse-right-click$$
+    "&mkp MB3":
+      tap: $$phosphor:regular/mouse-middle-click$$
+    "&mkp MB4":
+      tap: $$phosphor:regular/arrow-bend-up-left$$
+    "&mkp MB5":
+      tap: $$phosphor:regular/arrow-bend-up-right$$
 
     # Empty
     "&none":
-      tap: $$mdi:minus-circle-outline$$
+      tap: $$tabler:time-duration-off$$
       type: none
 
     # Bluetooth
+    "&bt BT_CLR": $$phosphor:regular/bluetooth-slash$$
+    "&bt BT_SEL": $$phosphor:regular/bluetooth-connected$$
     "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: 1
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: 1
     "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: 2
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: 2
     "&bt BT_SEL 2":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: 3
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: 3
     "&bt BT_SEL 3":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: 4
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: 4
     "&bt BT_SEL 4":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: 5
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: 5
+    "&bt BT_PRV":
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: $$phosphor:regular/caret-left$$
+    "&bt BT_NXT":
+      tap: $$phosphor:regular/bluetooth-connected$$
+      hold: $$phosphor:regular/caret-right$$
+
     "&out OUT_TOG":
       shifted: $$mdi:usb$$
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:bluetooth$$
-    "&bt BT_PRV":
-      tap: $$mdi:bluetooth-connect$$
-      hold: $$mdi:chevron-left$$
-    "&bt BT_NXT":
-      tap: $$mdi:bluetooth-connect$$
-      hold: $$mdi:chevron-right$$
+
+    # Power
+    "&ext_power EP_OFF":
+      tap: $$lucide:power-off$$
+    "&ext_power EP_ON":
+      tap: $$lucide:power$$
 
     # System 
     "&sys_reset":
@@ -234,14 +275,14 @@ parse_config:
     "&caps_word": $$mdi:alpha-w-box$$
 
     # Arrows
-    UP: $$mdi:arrow-up-bold$$
-    UP_ARROW: $$mdi:arrow-up-bold$$
-    DOWN: $$mdi:arrow-down-bold$$
-    DOWN_ARROW: $$mdi:arrow-down-bold$$
-    LEFT_ARROW: $$mdi:arrow-left-bold$$
-    LEFT: $$mdi:arrow-left-bold$$
-    RIGHT: $$mdi:arrow-right-bold$$
-    RIGHT_ARROW: $$mdi:arrow-right-bold$$
+    UP: $$lucide:chevron-up$$
+    UP_ARROW: $$lucide:chevron-up$$
+    DOWN: $$lucide:chevron-down$$
+    DOWN_ARROW: $$lucide:chevron-down$$
+    LEFT_ARROW: $$lucide:chevron-left$$
+    LEFT: $$lucide:chevron-left$$
+    RIGHT: $$lucide:chevron-right$$
+    RIGHT_ARROW: $$lucide:chevron-right$$
 
     # Whitespace
     ENTER:
@@ -269,114 +310,30 @@ parse_config:
     CAPS: $$mdi:apple-keyboard-caps$$
 
     # Sound
-    C_MUTE: $$mdi:volume-off$$
-    C_VOL_UP: $$mdi:volume-high$$
-    C_VOL_DN: $$mdi:volume-medium$$
-    C_VOLUME_UP: $$mdi:volume-high$$
-    C_VOLUME_DOWN: $$mdi:volume-low$$
+    C_MUTE: $$lucide:volume-x$$
+    C_VOL_UP: $$lucide:volume-2$$
+    C_VOL_DN: $$lucide:volume-1$$
+    C_VOLUME_UP: $$lucide:volume-2$$
+    C_VOLUME_DOWN: $$lucide:volume-1$$
 
     # Media
-    C_NEXT: $$mdi:skip-next$$
-    C_PREVIOUS: $$mdi:skip-previous$$
-    C_PP: $$mdi:play-pause$$
-    C_PLAY_PAUSE: $$mdi:play-pause$$
+    C_NEXT: $$phosphor:regular/skip-forward$$
+    C_PREVIOUS: $$phosphor:regular/skip-back$$
+    C_PP: $$phosphor:regular/play-pause$$
+    C_PLAY_PAUSE: $$phosphor:regular/play-pause$$
 
-    # Bluetooth
-    BT_CLR: $$mdi:bluetooth-off$$
-    BT_SEL: $$mdi:bluetooth-connect$$
-
-    # Settings
-    C_BRI_UP: $$mdi:brightness-5$$
-    C_BRIGHTNESS_INC: $$mdi:brightness-5$$
-    C_BRI_DN: $$mdi:brightness-7$$
-    C_BRI_DEC: $$mdi:brightness-7$$
-    C_BRIGHTNESS_DEC: $$mdi:brightness-7$$
-
-    # F-Keys
-    F1: $$mdi:keyboard-f1$$
-    F2: $$mdi:keyboard-f2$$
-    F3: $$mdi:keyboard-f3$$
-    F4: $$mdi:keyboard-f4$$
-    F5: $$mdi:keyboard-f5$$
-    F6: $$mdi:keyboard-f6$$
-    F7: $$mdi:keyboard-f7$$
-    F8: $$mdi:keyboard-f8$$
-    F9: $$mdi:keyboard-f9$$
-    F10: $$mdi:keyboard-f10$$
-    F11: $$mdi:keyboard-f11$$
-    F12: $$mdi:keyboard-f12$$
-
-    # System
-    C_POWER: $$mdi:power-standby$$
-    C_AL_LOCK: $$mdi:lock$$
-    K_CANCEL: $$mdi:close-box$$
-    K_FIND: $$mdi:apple-finder$$
-
-    # Command + 
-    LG(A):
-      tap: 'A'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(S):
-      tap: 'S'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(D):
-      tap: 'D'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(F):
-      tap: 'F'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(Z):
-      tap: 'Z'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(X):
-      tap: 'X'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(C):
-      tap: 'C'
-      hold: $$mdi:apple-keyboard-command$$
-    LG(V):
-      tap: 'V'
-      hold: $$mdi:apple-keyboard-command$$
-    # Zoom
-    RG(RS(A)):
-      tap: $$mdi:microphone$$
-      hold: zoom
-    RG(RS(V)):
-      tap: $$mdi:video$$
-      hold: zoom
+    # Brightness
+    C_BRIGHTNESS_INC: $$lucide:sun$$
+    C_BRI_UP: $$lucide:sun$$
+    C_BRI_INC: $$lucide:sun$$
+    C_BRI_DN: $$lucide:sun-dim$$
+    C_BRI_DEC: $$lucide:sun-dim$$
+    C_BRIGHTNESS_DEC: $$lucide:sun-dim$$
 
   zmk_combos:
-    combo_to_2:
-      align: top
-    combo_to_3:
-      align: top
-    combo_bt_clear:
-      align: top
-      offset: 0.03
-    combo_mute:
-      align: top
-      offset: 0.15
-    combo_minus:
-      key:
-        shifted: "_"
-        hold: "-"
-    combo_equal:
-      key:
-        shifted: "+"
-        hold: "="
-    combo_backslash:
-      key:
-        shifted: "|"
-        hold: \
-    combo_lbkt:
-      key:
-        shifted: "{"
-        hold: "["
-    combo_rbkt:
-      key:
-        shifted: "}"
-        hold: "]"
-    combo_semicolon:
-      key:
-        shifted: ":"
-        hold: ";"
+    tmux_prefix:
+      key: "$$simple_icons:tmux$$"
+    terminal_prefix:
+      key: "$$phosphor:regular/terminal$$"
+    leader_key_mac_os:
+      key: "$$phosphor:regular/keyboard$$"

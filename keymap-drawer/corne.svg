@@ -1,5 +1,222 @@
 <svg width="1055" height="3849" viewBox="0 0 1055 3849" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="lucide:chevron-down">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m6 9 6 6 6-6" />
+</svg>
+
+</svg>
+<svg id="lucide:chevron-left">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m15 18-6-6 6-6" />
+</svg>
+
+</svg>
+<svg id="lucide:chevron-right">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+
+</svg>
+<svg id="lucide:chevron-up">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m18 15-6-6-6 6" />
+</svg>
+
+</svg>
+<svg id="lucide:mouse-pointer-2">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z" />
+</svg>
+
+</svg>
+<svg id="lucide:power">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v10" />
+  <path d="M18.4 6.6a9 9 0 1 1-12.77.04" />
+</svg>
+
+</svg>
+<svg id="lucide:power-off">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18.36 6.64A9 9 0 0 1 20.77 15" />
+  <path d="M6.16 6.16a9 9 0 1 0 12.68 12.68" />
+  <path d="M12 2v4" />
+  <path d="m2 2 20 20" />
+</svg>
+
+</svg>
+<svg id="lucide:sun">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+
+</svg>
+<svg id="lucide:sun-dim">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 4h.01" />
+  <path d="M20 12h.01" />
+  <path d="M12 20h.01" />
+  <path d="M4 12h.01" />
+  <path d="M17.657 6.343h.01" />
+  <path d="M17.657 17.657h.01" />
+  <path d="M6.343 17.657h.01" />
+  <path d="M6.343 6.343h.01" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-1">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <path d="M16 9a5 5 0 0 1 0 6" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-2">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <path d="M16 9a5 5 0 0 1 0 6" />
+  <path d="M19.364 18.364a9 9 0 0 0 0-12.728" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-x">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <line x1="22" x2="16" y1="9" y2="15" />
+  <line x1="16" x2="22" y1="9" y2="15" />
+</svg>
+
+</svg>
 <svg id="mdi:apple-keyboard-command">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-command" viewBox="0 0 24 24"><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
 </svg>
@@ -12,77 +229,11 @@
 <svg id="mdi:apple-keyboard-shift">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
 </svg>
-<svg id="mdi:arrow-down-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
-</svg>
-<svg id="mdi:arrow-left-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
-</svg>
-<svg id="mdi:arrow-right-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
-</svg>
-<svg id="mdi:arrow-up-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
-</svg>
 <svg id="mdi:backspace">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace" viewBox="0 0 24 24"><path d="M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.31,21 7,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12" /></svg>
 </svg>
-<svg id="mdi:bluetooth-connect">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
-</svg>
-<svg id="mdi:bluetooth-off">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
-</svg>
-<svg id="mdi:brightness-5">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-brightness-5" viewBox="0 0 24 24"><path d="M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,15.31L23.31,12L20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31Z" /></svg>
-</svg>
-<svg id="mdi:brightness-7">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-brightness-7" viewBox="0 0 24 24"><path d="M12,8A4,4 0 0,0 8,12A4,4 0 0,0 12,16A4,4 0 0,0 16,12A4,4 0 0,0 12,8M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" /></svg>
-</svg>
-<svg id="mdi:chevron-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-left" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" /></svg>
-</svg>
-<svg id="mdi:chevron-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-right" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
-</svg>
 <svg id="mdi:keyboard-esc">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f1">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f1" viewBox="0 0 24 24"><path d="M6 7H12V9H8V11H11V13H8V17H6V7M14 7H18V17H16V9H14V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f10">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f10" viewBox="0 0 24 24"><path d="M2 7H8V9H4V11H7V13H4V17H2V7M10 7H14V17H12V9H10V7M18 7H20C21.11 7 22 7.9 22 9V15C22 16.11 21.11 17 20 17H18C16.9 17 16 16.11 16 15V9C16 7.9 16.9 7 18 7M18 9V15H20V9H18Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f11">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f11" viewBox="0 0 24 24"><path d="M3 7H9V9H5V11H8V13H5V17H3V7M11 7H15V17H13V9H11V7M17 7H21V17H19V9H17V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f12">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f12" viewBox="0 0 24 24"><path d="M2 7H8V9H4V11H7V13H4V17H2V7M16 7H20C21.11 7 22 7.9 22 9V11C22 12.11 21.11 13 20 13H18V15H22V17H16V13C16 11.9 16.9 11 18 11H20V9H16V7M10 7H14V17H12V9H10V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f2">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f2" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M13 7H17C18.11 7 19 7.9 19 9V11C19 12.11 18.11 13 17 13H15V15H19V17H13V13C13 11.9 13.9 11 15 11H17V9H13V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f3">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f3" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M19 15C19 16.11 18.11 17 17 17H13V15H17V13H15V11H17V9H13V7H17C18.1 7 19 7.89 19 9V10.5C19 11.33 18.33 12 17.5 12C18.33 12 19 12.67 19 13.5V15Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f4">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f4" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M13 7H15V11H17V7H19V17H17V13H13V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f5">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f5" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M13 7H19V9H15V11H17C18.11 11 19 11.9 19 13V15C19 16.11 18.11 17 17 17H13V15H17V13H13V7Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f6">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f6" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M15 7H19V9H15V11H17C18.11 11 19 11.9 19 13V15C19 16.11 18.11 17 17 17H15C13.9 17 13 16.11 13 15V9C13 7.9 13.9 7 15 7M15 13V15H17V13H15Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f7">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f7" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M15 17H13L17 9H13V7H19V9L15 17Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f8">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f8" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M15 13V15H17V13H15M15 9V11H17V9H15M15 17C13.9 17 13 16.11 13 15V13.5C13 12.67 13.67 12 14.5 12C13.67 12 13 11.33 13 10.5V9C13 7.9 13.9 7 15 7H17C18.1 7 19 7.89 19 9V10.5C19 11.33 18.33 12 17.5 12C18.33 12 19 12.67 19 13.5V15C19 16.11 18.11 17 17 17H15Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-f9">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-f9" viewBox="0 0 24 24"><path d="M5 7H11V9H7V11H10V13H7V17H5V7M17 17H13V15H17V13H15C13.9 13 13 12.11 13 11V9C13 7.9 13.9 7 15 7H17C18.11 7 19 7.9 19 9V15C19 16.11 18.11 17 17 17M17 11V9H15V11H17Z" /></svg>
 </svg>
 <svg id="mdi:keyboard-return">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
@@ -93,62 +244,75 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
-<svg id="mdi:menu-down">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-down" viewBox="0 0 24 24"><path d="M7,10L12,15L17,10H7Z" /></svg>
+<svg id="phosphor:regular/arrow-bend-up-left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,200a8,8,0,0,1-16,0,88.1,88.1,0,0,0-88-88H51.31l34.35,34.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,85.66,61.66L51.31,96H128A104.11,104.11,0,0,1,232,200Z"/></svg>
 </svg>
-<svg id="mdi:menu-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-left" viewBox="0 0 24 24"><path d="M14,7L9,12L14,17V7Z" /></svg>
+<svg id="phosphor:regular/arrow-bend-up-right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,109.66l-48,48a8,8,0,0,1-11.32-11.32L204.69,112H128a88.1,88.1,0,0,0-88,88,8,8,0,0,1-16,0A104.11,104.11,0,0,1,128,96h76.69L170.34,61.66a8,8,0,0,1,11.32-11.32l48,48A8,8,0,0,1,229.66,109.66Z"/></svg>
 </svg>
-<svg id="mdi:menu-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-right" viewBox="0 0 24 24"><path d="M10,17L15,12L10,7V17Z" /></svg>
+<svg id="phosphor:regular/bluetooth-connected">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196.8,169.6,141.33,128,196.8,86.4a8,8,0,0,0,0-12.8l-64-48A8,8,0,0,0,120,32v80L68.8,73.6a8,8,0,0,0-9.6,12.8L114.67,128,59.2,169.6a8,8,0,1,0,9.6,12.8L120,144v80a8,8,0,0,0,12.8,6.4l64-48a8,8,0,0,0,0-12.8ZM136,48l42.67,32L136,112Zm0,160V144l42.67,32ZM60,140a12,12,0,1,1,12-12A12,12,0,0,1,60,140Zm156-12a12,12,0,1,1-12-12A12,12,0,0,1,216,128Z"/></svg>
 </svg>
-<svg id="mdi:menu-up">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-up" viewBox="0 0 24 24"><path d="M7,15L12,10L17,15H7Z" /></svg>
+<svg id="phosphor:regular/bluetooth-slash">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.92,210.62l-160-176A8,8,0,0,0,50.08,45.38l70.84,77.93L59.2,169.6a8,8,0,1,0,9.6,12.8L120,144v80a8,8,0,0,0,12.8,6.4l50.83-38.12,26.45,29.1a8,8,0,1,0,11.84-10.76ZM136,208V144l11.73,8.8,25.08,27.59ZM120,71.63V32a8,8,0,0,1,12.8-6.4l64,48a8,8,0,0,1,0,12.8l-33.53,25.15a8,8,0,0,1-9.6-12.8l25-18.75L136,48V71.63a8,8,0,0,1-16,0Z"/></svg>
 </svg>
-<svg id="mdi:minus-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
+<svg id="phosphor:regular/caret-left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></svg>
 </svg>
-<svg id="mdi:mouse">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse" viewBox="0 0 24 24"><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
+<svg id="phosphor:regular/caret-right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></svg>
 </svg>
-<svg id="mdi:mouse-left-click-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-left-click-outline" viewBox="0 0 24 24"><path d="M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M11 9V1.07C7.06 1.56 4 4.92 4 9H11Z" /></svg>
+<svg id="phosphor:regular/keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48Zm0,144H32V64H224V192Zm-16-64a8,8,0,0,1-8,8H56a8,8,0,0,1,0-16H200A8,8,0,0,1,208,128Zm0-32a8,8,0,0,1-8,8H56a8,8,0,0,1,0-16H200A8,8,0,0,1,208,96ZM72,160a8,8,0,0,1-8,8H56a8,8,0,0,1,0-16h8A8,8,0,0,1,72,160Zm96,0a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,160Zm40,0a8,8,0,0,1-8,8h-8a8,8,0,0,1,0-16h8A8,8,0,0,1,208,160Z"/></svg>
 </svg>
-<svg id="mdi:mouse-right-click-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-right-click-outline" viewBox="0 0 24 24"><path d="M13 9V1.07C16.94 1.56 20 4.92 20 9H13M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15Z" /></svg>
+<svg id="phosphor:regular/mouse-left-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm48,64v24H136V32h8A48.05,48.05,0,0,1,192,80Zm-76.69,24-46-46A48.49,48.49,0,0,1,80.51,43.82L120,83.31V104ZM64,80c0-1.51.08-3,.22-4.47L92.69,104H64Zm56-48V60.69L94.59,35.28A47.73,47.73,0,0,1,112,32Zm24,192H112a48.05,48.05,0,0,1-48-48V120H192v56A48.05,48.05,0,0,1,144,224Z"/></svg>
 </svg>
-<svg id="mdi:mouse-scroll-wheel">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-scroll-wheel" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9H11V7.73C10.4 7.39 10 6.74 10 6V4C10 3.26 10.4 2.61 11 2.27V1.07M13 9V7.73C13.6 7.39 14 6.74 14 6V4C14 3.26 13.6 2.61 13 2.27V1.07C16.94 1.56 20 4.92 20 9H13M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M13 6V4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V6C11 6.55 11.45 7 12 7C12.55 7 13 6.55 13 6Z" /></svg>
+<svg id="phosphor:regular/mouse-middle-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm48,64v24H152V88a16,16,0,0,0-16-16V32h8A48.05,48.05,0,0,1,192,80Zm-56,56H120V88h16v23.9a.51.51,0,0,0,0,.2ZM112,32h8V72a16,16,0,0,0-16,16v16H64V80A48.05,48.05,0,0,1,112,32Zm32,192H112a48.05,48.05,0,0,1-48-48V120h40v16a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V120h40v56A48.05,48.05,0,0,1,144,224Z"/></svg>
 </svg>
-<svg id="mdi:pan-down">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-down" viewBox="0 0 24 24"><path d="M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M8,17L12,21.5L16,17H8Z" /></svg>
+<svg id="phosphor:regular/mouse-right-click">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm-8,67.31,39.49-39.49A48.49,48.49,0,0,1,186.66,58l-46,46H136Zm55.78-7.78c.14,1.47.22,3,.22,4.47v24H163.31ZM161.41,35.28,136,60.69V32h8A47.73,47.73,0,0,1,161.41,35.28ZM112,32h8v72H64V80A48.05,48.05,0,0,1,112,32Zm32,192H112a48.05,48.05,0,0,1-48-48V120H192v56A48.05,48.05,0,0,1,144,224Z"/></svg>
 </svg>
-<svg id="mdi:pan-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-left" viewBox="0 0 24 24"><path d="M7,8L2.5,12L7,16V8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
+<svg id="phosphor:regular/mouse-simple">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,16H112A64.07,64.07,0,0,0,48,80v96a64.07,64.07,0,0,0,64,64h32a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,144,16Zm48,160a48.05,48.05,0,0,1-48,48H112a48.05,48.05,0,0,1-48-48V80a48.05,48.05,0,0,1,48-48h32a48.05,48.05,0,0,1,48,48ZM136,64v48a8,8,0,0,1-16,0V64a8,8,0,0,1,16,0Z"/></svg>
 </svg>
-<svg id="mdi:pan-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-right" viewBox="0 0 24 24"><path d="M17,8V16L21.5,12L17,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
+<svg id="phosphor:regular/play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,64V192a8,8,0,0,1-16,0V64a8,8,0,0,1,16,0Zm40-8a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,224,56Zm-80,72a15.76,15.76,0,0,1-7.33,13.34L48.48,197.49A15.91,15.91,0,0,1,24,184.15V71.85A15.91,15.91,0,0,1,48.48,58.51l88.19,56.15A15.76,15.76,0,0,1,144,128Zm-16.18,0L40,72.08V183.93Z"/></svg>
 </svg>
-<svg id="mdi:pan-up">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-up" viewBox="0 0 24 24"><path d="M12,2.5L8,7H16L12,2.5M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
+<svg id="phosphor:regular/skip-back">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M199.81,34a16,16,0,0,0-16.24.43L64,109.23V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0V146.77l119.57,74.78A15.95,15.95,0,0,0,208,208.12V47.88A15.86,15.86,0,0,0,199.81,34ZM192,208,64.16,128,192,48.07Z"/></svg>
 </svg>
-<svg id="mdi:play-pause">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+<svg id="phosphor:regular/skip-forward">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,32a8,8,0,0,0-8,8v69.23L72.43,34.45A15.95,15.95,0,0,0,48,47.88V208.12a16,16,0,0,0,24.43,13.43L192,146.77V216a8,8,0,0,0,16,0V40A8,8,0,0,0,200,32ZM64,207.93V48.05l127.84,80Z"/></svg>
 </svg>
-<svg id="mdi:skip-next">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-next" viewBox="0 0 24 24"><path d="M16,18H18V6H16M6,18L14.5,12L6,6V18Z" /></svg>
+<svg id="phosphor:regular/terminal">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M117.31,134l-72,64a8,8,0,1,1-10.63-12L100,128,34.69,70A8,8,0,1,1,45.32,58l72,64a8,8,0,0,1,0,12ZM216,184H120a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Z"/></svg>
 </svg>
-<svg id="mdi:skip-previous">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
+<svg id="simple_icons:tmux">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>tmux</title><path d="M24 2.251V10.5H12.45V0h9.3A2.251 2.251 0 0 1 24 2.251zM12.45 11.4H24v10.5h-.008A2.25 2.25 0 0 1 21.75 24H2.25a2.247 2.247 0 0 1-2.242-2.1H0V2.251A2.251 2.251 0 0 1 2.25 0h9.3v21.6h.9V11.4zm11.242 10.5H.308a1.948 1.948 0 0 0 1.942 1.8h19.5a1.95 1.95 0 0 0 1.942-1.8z"/></svg>
 </svg>
-<svg id="mdi:volume-high">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+<svg id="tabler:time-duration-off">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-time-duration-off"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12v.01" />
+  <path d="M7.5 19.8v.01" />
+  <path d="M4.2 16.5v.01" />
+  <path d="M4.2 7.5v.01" />
+  <path d="M12 21a8.994 8.994 0 0 0 6.362 -2.634m1.685 -2.336a9 9 0 0 0 -8.047 -13.03" />
+  <path d="M3 3l18 18" />
 </svg>
-<svg id="mdi:volume-medium">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-medium" viewBox="0 0 24 24"><path d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" /></svg>
-</svg>
-<svg id="mdi:volume-off">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -286,7 +450,14 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-}</style>
+}
+.glyph:not(.simple_icons\:tmux),
+.glyph:not(.simple_icons\:tmux) * {
+  color: white !important;
+  fill: white !important;
+  stroke: white !important;
+}
+</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
@@ -318,8 +489,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(546, 41)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-up" xlink:href="#mdi:menu-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-up"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(672, 41)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -372,17 +543,17 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(490, 97)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-left"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(546, 97)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-left-click-outline"/>
+<use href="#phosphor:regular/mouse-left-click" xlink:href="#phosphor:regular/mouse-left-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-left-click"/>
 </g>
 <g transform="translate(602, 97)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-right"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(672, 97)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -434,12 +605,12 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(378, 153)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-off"/>
+<use href="#lucide:volume-x" xlink:href="#lucide:volume-x" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-x"/>
 </g>
 <g transform="translate(546, 153)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-down"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(672, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -526,7 +697,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(546, 41)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-up"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(672, 41)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -578,15 +750,17 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(490, 97)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-left"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(546, 97)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-right-click-outline"/>
+<use href="#phosphor:regular/mouse-right-click" xlink:href="#phosphor:regular/mouse-right-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-right-click"/>
 </g>
 <g transform="translate(602, 97)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-right"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(672, 97)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -594,7 +768,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(728, 91)" class="key none keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-7" y="-7" height="14" width="14.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<use href="#tabler:time-duration-off" xlink:href="#tabler:time-duration-off" x="-7" y="-7" height="14" width="14.0" class="key none tap glyph tabler:time-duration-off"/>
 </g>
 <g transform="translate(784, 84)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -638,11 +812,12 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(378, 153)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-off"/>
+<use href="#lucide:volume-x" xlink:href="#lucide:volume-x" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-x"/>
 </g>
 <g transform="translate(546, 153)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-down"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(672, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -698,55 +873,55 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f1" xlink:href="#mdi:keyboard-f1" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f1"/>
+<text x="0" y="0" class="key tap">F1</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f2" xlink:href="#mdi:keyboard-f2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f2"/>
+<text x="0" y="0" class="key tap">F2</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f3" xlink:href="#mdi:keyboard-f3" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f3"/>
+<text x="0" y="0" class="key tap">F3</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f4" xlink:href="#mdi:keyboard-f4" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f4"/>
+<text x="0" y="0" class="key tap">F4</text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f5" xlink:href="#mdi:keyboard-f5" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f5"/>
+<text x="0" y="0" class="key tap">F5</text>
 </g>
 <g transform="translate(308, 41)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f6" xlink:href="#mdi:keyboard-f6" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f6"/>
+<text x="0" y="0" class="key tap">F6</text>
 </g>
 <g transform="translate(546, 41)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f7" xlink:href="#mdi:keyboard-f7" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f7"/>
+<text x="0" y="0" class="key tap">F7</text>
 </g>
 <g transform="translate(672, 41)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f7" xlink:href="#mdi:keyboard-f7" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f7"/>
+<text x="0" y="0" class="key tap">F7</text>
 </g>
 <g transform="translate(728, 35)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f8" xlink:href="#mdi:keyboard-f8" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f8"/>
+<text x="0" y="0" class="key tap">F8</text>
 </g>
 <g transform="translate(784, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f9" xlink:href="#mdi:keyboard-f9" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f9"/>
+<text x="0" y="0" class="key tap">F9</text>
 </g>
 <g transform="translate(840, 35)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f10" xlink:href="#mdi:keyboard-f10" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f10"/>
+<text x="0" y="0" class="key tap">F10</text>
 </g>
 <g transform="translate(896, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f11" xlink:href="#mdi:keyboard-f11" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f11"/>
+<text x="0" y="0" class="key tap">F11</text>
 </g>
 <g transform="translate(952, 49)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-f12" xlink:href="#mdi:keyboard-f12" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-f12"/>
+<text x="0" y="0" class="key tap">F12</text>
 </g>
 <g transform="translate(28, 105)" class="key trans keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -754,57 +929,57 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 105)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-medium" xlink:href="#mdi:volume-medium" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-medium"/>
+<use href="#lucide:volume-1" xlink:href="#lucide:volume-1" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-1"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-high"/>
+<use href="#lucide:volume-2" xlink:href="#lucide:volume-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-2"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:skip-previous"/>
+<use href="#phosphor:regular/skip-back" xlink:href="#phosphor:regular/skip-back" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/skip-back"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:play-pause"/>
+<use href="#phosphor:regular/play-pause" xlink:href="#phosphor:regular/play-pause" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/play-pause"/>
 </g>
 <g transform="translate(308, 97)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:skip-next"/>
+<use href="#phosphor:regular/skip-forward" xlink:href="#phosphor:regular/skip-forward" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/skip-forward"/>
 </g>
 <g transform="translate(490, 97)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-left"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(546, 97)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-left-click-outline"/>
+<use href="#phosphor:regular/mouse-left-click" xlink:href="#phosphor:regular/mouse-left-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-left-click"/>
 </g>
 <g transform="translate(602, 97)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-right"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(672, 97)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-left-bold"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(728, 91)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-down-bold"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(784, 84)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-up-bold"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(840, 91)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-right-bold"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(896, 105)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-off"/>
+<use href="#lucide:volume-x" xlink:href="#lucide:volume-x" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-x"/>
 </g>
 <g transform="translate(952, 105)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -816,11 +991,11 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 161)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-7"/>
+<use href="#lucide:sun-dim" xlink:href="#lucide:sun-dim" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun-dim"/>
 </g>
 <g transform="translate(140, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-5"/>
+<use href="#lucide:sun" xlink:href="#lucide:sun" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun"/>
 </g>
 <g transform="translate(196, 140)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -840,8 +1015,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(546, 153)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-down"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(672, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -911,7 +1086,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-up"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -935,8 +1111,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(784, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-up" xlink:href="#mdi:menu-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-up"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(840, 35)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -960,19 +1136,22 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-left"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-down"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:pan-right"/>
+<use href="#phosphor:regular/mouse-simple" xlink:href="#phosphor:regular/mouse-simple" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-simple"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(308, 97)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#phosphor:regular/mouse-middle-click" xlink:href="#phosphor:regular/mouse-middle-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-middle-click"/>
 </g>
 <g transform="translate(490, 97)" class="key trans keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -988,22 +1167,22 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(672, 97)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#phosphor:regular/mouse-middle-click" xlink:href="#phosphor:regular/mouse-middle-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-middle-click"/>
 </g>
 <g transform="translate(728, 91)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-left"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-left" xlink:href="#lucide:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-left"/>
 </g>
 <g transform="translate(784, 84)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-down"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-down"/>
 </g>
 <g transform="translate(840, 91)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:menu-right"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:mouse"/>
+<use href="#lucide:mouse-pointer-2" xlink:href="#lucide:mouse-pointer-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse-pointer-2"/>
+<use href="#lucide:chevron-right" xlink:href="#lucide:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph lucide:chevron-right"/>
 </g>
 <g transform="translate(896, 105)" class="key trans keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1075,23 +1254,19 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB4</tspan>
-</text>
+<use href="#phosphor:regular/arrow-bend-up-left" xlink:href="#phosphor:regular/arrow-bend-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/arrow-bend-up-left"/>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-left-click-outline"/>
+<use href="#phosphor:regular/mouse-left-click" xlink:href="#phosphor:regular/mouse-left-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-left-click"/>
 </g>
 <g transform="translate(632, 224) rotate(-24.0)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-right-click-outline"/>
+<use href="#phosphor:regular/mouse-right-click" xlink:href="#phosphor:regular/mouse-right-click" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/mouse-right-click"/>
 </g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB5</tspan>
-</text>
+<use href="#phosphor:regular/arrow-bend-up-right" xlink:href="#phosphor:regular/arrow-bend-up-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/arrow-bend-up-right"/>
 </g>
 <g transform="translate(756, 203)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1108,28 +1283,28 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<text x="0" y="24" class="key hold">1</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<text x="0" y="24" class="key hold">2</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<text x="0" y="24" class="key hold">3</text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(308, 41)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">5</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<text x="0" y="24" class="key hold">5</text>
 </g>
 <g transform="translate(546, 41)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1177,29 +1352,25 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 105)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-connect"/>
-<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:chevron-left"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<use href="#phosphor:regular/caret-left" xlink:href="#phosphor:regular/caret-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:regular/caret-left"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-connect"/>
-<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:chevron-right"/>
+<use href="#phosphor:regular/bluetooth-connected" xlink:href="#phosphor:regular/bluetooth-connected" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-connected"/>
+<use href="#phosphor:regular/caret-right" xlink:href="#phosphor:regular/caret-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:regular/caret-right"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">EP</tspan><tspan x="0" dy="1.2em">OFF</tspan>
-</text>
+<use href="#lucide:power-off" xlink:href="#lucide:power-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:power-off"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">EP</tspan><tspan x="0" dy="1.2em">ON</tspan>
-</text>
+<use href="#lucide:power" xlink:href="#lucide:power" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:power"/>
 </g>
 <g transform="translate(308, 97)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-off"/>
+<use href="#phosphor:regular/bluetooth-slash" xlink:href="#phosphor:regular/bluetooth-slash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:regular/bluetooth-slash"/>
 </g>
 <g transform="translate(490, 97)" class="key trans keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -2398,7 +2569,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;equals_ar…</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">=&gt;</text>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2550,7 +2721,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;minus_arr…</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">-&gt;</text>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2702,7 +2873,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;colon_equ…</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">:=</text>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -3767,7 +3938,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:keyboard-f1" xlink:href="#mdi:keyboard-f1" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:keyboard-f1"/>
+<use href="#simple_icons:tmux" xlink:href="#simple_icons:tmux" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph simple_icons:tmux"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -3919,7 +4090,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:keyboard-f2" xlink:href="#mdi:keyboard-f2" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:keyboard-f2"/>
+<use href="#phosphor:regular/terminal" xlink:href="#phosphor:regular/terminal" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph phosphor:regular/terminal"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -4071,7 +4242,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:keyboard-f3" xlink:href="#mdi:keyboard-f3" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:keyboard-f3"/>
+<use href="#phosphor:regular/keyboard" xlink:href="#phosphor:regular/keyboard" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph phosphor:regular/keyboard"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>

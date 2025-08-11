@@ -7,6 +7,8 @@ on:
       - "**.md"
       - ".gitignore"
       - "build.sh"
+      - "keymap_drawer.config.yaml"
+      - ".github/**"
 
 jobs:
   build:

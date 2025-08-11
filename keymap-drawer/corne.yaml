@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
+  - $$phosphor:regular/mouse-left-click$$
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
   - H
   - J
   - K
@@ -35,8 +35,8 @@ layers:
   - C
   - V
   - B
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$lucide:volume-x$$
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - N
   - M
   - ','
@@ -56,7 +56,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - $$mdi:pan-up$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
   - '6'
   - '7'
   - '8'
@@ -69,11 +69,11 @@ layers:
   - +
   - '='
   - '`'
-  - $$mdi:pan-left$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-right$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
+  - $$phosphor:regular/mouse-right-click$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
   - '~'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$tabler:time-duration-off$$', type: none}
   - /
   - .
   - ','
@@ -84,8 +84,8 @@ layers:
   - '#'
   - $
   - '%'
-  - $$mdi:volume-off$$
-  - $$mdi:pan-down$$
+  - $$lucide:volume-x$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
   - ^
   - '&'
   - '*'
@@ -99,42 +99,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fnavol:
-  - $$mdi:keyboard-f1$$
-  - $$mdi:keyboard-f2$$
-  - $$mdi:keyboard-f3$$
-  - $$mdi:keyboard-f4$$
-  - $$mdi:keyboard-f5$$
-  - $$mdi:keyboard-f6$$
-  - $$mdi:keyboard-f7$$
-  - $$mdi:keyboard-f7$$
-  - $$mdi:keyboard-f8$$
-  - $$mdi:keyboard-f9$$
-  - $$mdi:keyboard-f10$$
-  - $$mdi:keyboard-f11$$
-  - $$mdi:keyboard-f12$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
-  - $$mdi:volume-medium$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:volume-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
+  - $$lucide:volume-1$$
+  - $$lucide:volume-2$$
+  - $$phosphor:regular/skip-back$$
+  - $$phosphor:regular/play-pause$$
+  - $$phosphor:regular/skip-forward$$
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
+  - $$phosphor:regular/mouse-left-click$$
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
+  - $$lucide:chevron-left$$
+  - $$lucide:chevron-down$$
+  - $$lucide:chevron-up$$
+  - $$lucide:chevron-right$$
+  - $$lucide:volume-x$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$lucide:sun-dim$$
+  - $$lucide:sun$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,35 +151,29 @@ layers:
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:pan-up$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
   - '&macos_homerow'
   - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
+  - $$phosphor:regular/mouse-middle-click$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$phosphor:regular/mouse-middle-click$$
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,18 +185,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$phosphor:regular/arrow-bend-up-left$$
+  - $$phosphor:regular/mouse-left-click$$
+  - $$phosphor:regular/mouse-right-click$$
+  - $$phosphor:regular/arrow-bend-up-right$$
   - {t: ▽, type: trans}
   Aura:
   - '&studio_unlock'
-  - {t: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '1'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '2'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '3'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '4'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '5'}
   - {t: ▽, type: trans}
   - RGB HUD
   - RGB HUI
@@ -211,11 +211,11 @@ layers:
   - RGB BRD
   - RGB BRI
   - {t: ▽, type: trans}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-right$$'}
-  - EP OFF
-  - EP ON
-  - $$mdi:bluetooth-off$$
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '$$phosphor:regular/caret-left$$'}
+  - {t: '$$phosphor:regular/bluetooth-connected$$', h: '$$phosphor:regular/caret-right$$'}
+  - $$lucide:power-off$$
+  - $$lucide:power$$
+  - $$phosphor:regular/bluetooth-slash$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -261,11 +261,11 @@ combos:
 - p: [37, 24, 25]
   k: '}'
 - p: [14, 15, 16]
-  k: '&equals_arrow'
+  k: =>
 - p: [24, 25, 26]
-  k: '&minus_arrow'
+  k: ->
 - p: [14, 26]
-  k: '&colon_equals'
+  k: :=
 - p: [2, 16, 32]
   k: \
 - p: [37, 24, 10]
@@ -279,8 +279,8 @@ combos:
 - p: [42, 47]
   k: Aura
 - p: [15, 26]
-  k: Ctl+$$mdi:keyboard-f1$$
+  k: $$simple_icons:tmux$$
 - p: [25, 26]
-  k: Ctl+$$mdi:keyboard-f2$$
+  k: $$phosphor:regular/terminal$$
 - p: [23, 26]
-  k: Ctl+$$mdi:keyboard-f3$$
+  k: $$phosphor:regular/keyboard$$
