@@ -50,52 +50,52 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
   Symbols:
-  - {t: ▽, type: trans}
+  - .
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
+  - ','
+  - '~'
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
+  - $$phosphor:regular/mouse-right-click$$
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
+  - /
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - '`'
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - '-'
-  - +
-  - '='
-  - '`'
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
-  - $$phosphor:regular/mouse-right-click$$
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
-  - '~'
-  - {t: '$$tabler:time-duration-off$$', type: none}
-  - /
-  - .
-  - ','
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
   - $$lucide:volume-x$$
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - \
+  - _
+  - +
+  - Sft+{
+  - Sft+}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fnavol:
@@ -105,7 +105,7 @@ layers:
   - F4
   - F5
   - F6
-  - F7
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - F7
   - F8
   - F9
@@ -125,21 +125,21 @@ layers:
   - $$lucide:chevron-down$$
   - $$lucide:chevron-up$$
   - $$lucide:chevron-right$$
-  - $$lucide:volume-x$$
+  - Ins
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$lucide:sun-dim$$
   - $$lucide:sun$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$lucide:volume-x$$
   - {t: ▽, type: trans}
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - HOME
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PgDn
+  - PgUp
   - END
-  - {t: ▽, type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,34 +248,12 @@ layers:
 combos:
 - p: [17, 23]
   k: '&delete_word_macos'
-- p: [4, 15, 16]
-  k: (
-- p: [8, 24, 25]
-  k: )
-- p: [17, 16, 15]
-  k: '['
-- p: [23, 24, 25]
-  k: ']'
-- p: [32, 15, 16]
-  k: '{'
-- p: [37, 24, 25]
-  k: '}'
 - p: [14, 15, 16]
   k: =>
 - p: [24, 25, 26]
   k: ->
 - p: [14, 26]
   k: :=
-- p: [2, 16, 32]
-  k: \
-- p: [37, 24, 10]
-  k: /
-- p: [15, 3, 4]
-  k: <
-- p: [8, 9, 25]
-  k: '>'
-- p: [30, 31, 32]
-  k: '|'
 - p: [42, 47]
   k: Aura
 - p: [15, 26]
