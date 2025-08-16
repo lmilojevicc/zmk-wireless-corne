@@ -151,10 +151,9 @@ parse_config:
       tap: $$phosphor:regular/bluetooth-connected$$
       hold: $$phosphor:regular/caret-right$$
 
-    "&out OUT_TOG":
-      shifted: $$mdi:usb$$
-      tap: $$mdi:toggle-switch$$
-      hold: $$mdi:bluetooth$$
+    # Output
+    "&out OUT_BLE": $$lucide:bluetooth$$
+    "&out OUT_USB": $$lucide:usb$$
 
     # Power
     "&ext_power EP_OFF":
@@ -249,26 +248,30 @@ parse_config:
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
     LEFT_CONTROL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LEFT_ALT: $$mdi:apple-keyboard-option$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
+
     LCMD: $$mdi:apple-keyboard-command$$
     LG: $$mdi:apple-keyboard-command$$
     LEFT_GUI: $$mdi:apple-keyboard-command$$
     LEFT_COMMAND: $$mdi:apple-keyboard-command$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
+    RCMD: $$mdi:apple-keyboard-command$$
+    RG: $$mdi:apple-keyboard-command$$
+    RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
+
+    LALT: $$mdi:apple-keyboard-option$$
+    LEFT_ALT: $$mdi:apple-keyboard-option$$
     RALT: $$mdi:apple-keyboard-option$$
     RIGHT_ALT: $$mdi:apple-keyboard-option$$
+
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:apple-keyboard-command$$
-    RG: $$mdi:apple-keyboard-command$$
+
     PSCRN: $$mdi:printer-outline$$
-    RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
     PAGE_UP: 'PgUp'
     PAGE_DOWN: 'PgDn'
     INSERT: 'Ins'
