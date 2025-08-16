@@ -13,8 +13,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 30    // default: 10
 
-#define ___ &trans 
-
 /*
 
    &mmv_input_listener {
@@ -242,10 +240,10 @@
         Symbols {
             display-name = "Symbols";
             bindings = <
-  ___   &kp N1            &kp N2        &kp N3     &kp N4       &kp N5                                              &msc SCRL_UP                           &kp N6      &kp N7          &kp N8         &kp N9                 &kp N0                  ___
-  ___   &kp UNDERSCORE    &kp MINUS     &kp PLUS   &kp EQUAL    &kp GRAVE                          &msc SCRL_LEFT   &mkp RCLK        &msc SCRL_RIGHT       &kp TILDE   &none           &kp SLASH      &kp DOT                &kp COMMA               ___
-  ___   &kp EXCLAMATION   &kp AT_SIGN   &kp HASH   &kp DOLLAR   &kp PERCENT       &kp C_MUTE                        &msc SCRL_DOWN                         &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   ___
-                                        ___        ___          ___                                                                                        &kp SPACE   ___             ___
+  &trans   &kp N1            &kp N2        &kp N3     &kp N4       &kp N5                                              &msc SCRL_UP                           &kp N6      &kp N7          &kp N8         &kp N9                 &kp N0                  &trans
+  &trans   &kp UNDERSCORE    &kp MINUS     &kp PLUS   &kp EQUAL    &kp GRAVE                          &msc SCRL_LEFT   &mkp RCLK        &msc SCRL_RIGHT       &kp TILDE   &none           &kp SLASH      &kp DOT                &kp COMMA               &trans
+  &trans   &kp EXCLAMATION   &kp AT_SIGN   &kp HASH   &kp DOLLAR   &kp PERCENT       &kp C_MUTE                        &msc SCRL_DOWN                         &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans
+                                           &trans     &trans       &trans                                                                                     &kp SPACE   &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -254,10 +252,10 @@
         Fnavol {
             display-name = "Fnavol";
             bindings = <
-  &kp F1   &kp F2                 &kp F3                 &kp F4           &kp F5             &kp F6                                      &mmv MOVE_UP                           &kp F7           &kp F8     &kp F9         &kp F10     &kp F11      &kp F12
-  ___      &kp C_VOL_DN           &kp C_VOLUME_UP        &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT                 &mmv MOVE_LEFT   &mkp LCLK        &mmv MOVE_RIGHT       &kp LEFT_ARROW   &kp DOWN   &kp UP_ARROW   &kp RIGHT   &kp C_MUTE   ___
-  ___      &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   ___              ___                ___              ___                        &mmv MOVE_DOWN                         &kp HOME         ___        ___            &kp END     ___          ___
-                                                         ___              ___                ___                                                                                ___              ___        ___
+  &kp F1   &kp F2                 &kp F3                 &kp F4           &kp F5             &kp F6                                         &mmv MOVE_UP                           &kp F7           &kp F8     &kp F9         &kp F10     &kp F11      &kp F12
+  &trans   &kp C_VOL_DN           &kp C_VOLUME_UP        &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT                    &mmv MOVE_LEFT   &mkp LCLK        &mmv MOVE_RIGHT       &kp LEFT_ARROW   &kp DOWN   &kp UP_ARROW   &kp RIGHT   &kp C_MUTE   &trans
+  &trans   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   &trans           &trans             &trans           &trans                        &mmv MOVE_DOWN                         &kp HOME         &trans     &trans         &kp END     &trans       &trans
+                                                         &trans           &trans             &trans                                                                                &trans           &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -266,19 +264,19 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-  &to 0   ___   ___              &msc SCRL_UP     &macos_homerow    &kp ESCAPE                       ___             &kp ESCAPE   ___              &mmv MOVE_UP     ___               ___   ___
-  ___     ___   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_RIGHT   &mkp MCLK                  ___   ___   ___       &mkp MCLK    &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   ___   ___
-  ___     ___   ___              ___              ___               ___              ___             ___             ___          ___              ___              ___               ___   ___
-                                 ___              &mkp MB4          &mkp LCLK                                        &mkp RCLK    &mkp MB5         ___
+  &to 0    &trans   &trans           &msc SCRL_UP     &macos_homerow    &kp ESCAPE                             &trans                &kp ESCAPE   &trans           &mmv MOVE_UP     &trans            &trans   &trans
+  &trans   &trans   &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_RIGHT   &mkp MCLK                     &trans   &trans   &trans       &mkp MCLK    &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &trans   &trans
+  &trans   &trans   &trans           &trans           &trans            &trans           &trans                &trans                &trans       &trans           &trans           &trans            &trans   &trans
+                                     &trans           &mkp MB4          &mkp LCLK                                                    &mkp RCLK    &mkp MB5         &trans
             >;
         };
 
         Aura {
             bindings = <
-  &studio_unlock   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_SEL 3       &bt BT_SEL 4                       ___             &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &rgb_ug RGB_BRD   &rgb_ug RGB_BRI
-  ___              &bt BT_PRV     &bt BT_NXT     &ext_power EP_OFF   &ext_power EP_ON   &bt BT_CLR                   ___   ___   ___       &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_EFF   &rgb_ug RGB_SPD   &rgb_ug RGB_SPI
-  ___              &out OUT_BLE   &out OUT_USB   ___                 ___                ___                ___             ___             ___               ___               ___               ___               ___               ___
-                                                 ___                 ___                ___                                                ___               ___               ___
+  &studio_unlock   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_SEL 3       &bt BT_SEL 4                             &trans                &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &rgb_ug RGB_BRD   &rgb_ug RGB_BRI
+  &trans           &bt BT_PRV     &bt BT_NXT     &ext_power EP_OFF   &ext_power EP_ON   &bt BT_CLR                      &trans   &trans   &trans       &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_EFF   &rgb_ug RGB_SPD   &rgb_ug RGB_SPI
+  &trans           &out OUT_BLE   &out OUT_USB   &trans              &trans             &trans             &trans                &trans                &trans            &trans            &trans            &trans            &trans            &trans
+                                                 &trans              &trans             &trans                                                         &trans            &trans            &trans
             >;
 
             label = "Aura";
