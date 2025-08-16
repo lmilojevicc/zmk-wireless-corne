@@ -105,7 +105,7 @@ layers:
   - F4
   - F5
   - F6
-  - F7
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - F7
   - F8
   - F9
@@ -226,8 +226,8 @@ layers:
   - RGB SPD
   - RGB SPI
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$lucide:bluetooth$$
+  - $$lucide:usb$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -246,6 +246,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
+- p: [42, 47]
+  k: Aura
 - p: [17, 23]
   k: '&delete_word_macos'
 - p: [4, 15, 16]
@@ -264,8 +266,6 @@ combos:
   k: =>
 - p: [24, 25, 26]
   k: ->
-- p: [14, 26]
-  k: :=
 - p: [2, 16, 32]
   k: \
 - p: [37, 24, 10]
@@ -274,10 +274,10 @@ combos:
   k: <
 - p: [8, 9, 25]
   k: '>'
+- p: [14, 26]
+  k: :=
 - p: [30, 31, 32]
   k: '|'
-- p: [42, 47]
-  k: Aura
 - p: [15, 26]
   k: $$simple_icons:tmux$$
 - p: [25, 26]
