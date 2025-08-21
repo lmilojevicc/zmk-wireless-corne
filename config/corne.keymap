@@ -1,3 +1,14 @@
+/* 
+                                 Keyboard Layout
+
+  ╭────────────────────────╮             ╭────╮      ╭─────────────────────────╮
+  │  0   1   2   3   4   5 │         ╭───╯  6 ╰───╮  │   7   8   9  10  11  12 │
+  │ 13  14  15  16  17  18 │ ╭────╮  │ 19  20  21 │  │  22  23  24  25  26  27 │
+  │ 28  29  30  31  32  33 │ │ 34 │  ╰───╮ 35 ╭───╯  │  36  37  38  39  40  41 │
+  ╰───────────╮ 42  43  44 │ ╰────╯      ╰────╯      │  45  46  47 ╭───────────╯
+              ╰────────────╯                         ╰─────────────╯
+*/
+
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
@@ -84,56 +95,57 @@
         };
 
         delete_word {
-            bindings = <&delete_word_macos>;
-            timeout-ms = <50>;
-            key-positions = <17 23>;
+            bindings = <&kp LA(BSPC)>;
+            key-positions = <23 43>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            timeout-ms = <50>;
             key-positions = <4 15 16>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            timeout-ms = <50>;
             key-positions = <8 24 25>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            timeout-ms = <50>;
             key-positions = <17 16 15>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            timeout-ms = <50>;
             key-positions = <23 24 25>;
         };
 
         left_curly {
             bindings = <&kp LEFT_BRACE>;
-            timeout-ms = <50>;
             key-positions = <32 15 16>;
         };
 
         right_curly {
             bindings = <&kp RBRC>;
-            timeout-ms = <50>;
             key-positions = <37 24 25>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <15 16 18>;
+        };
+
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <22 24 25>;
         };
 
         equlas_arrow {
             bindings = <&equals_arrow>;
-            timeout-ms = <50>;
             key-positions = <14 15 16>;
         };
 
         minus_arrow {
             bindings = <&minus_arrow>;
-            timeout-ms = <50>;
             key-positions = <24 25 26>;
         };
 
@@ -147,25 +159,19 @@
             key-positions = <37 24 10>;
         };
 
-        lt {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <15 3 4>;
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <30 31 32>;
         };
 
-        gt {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <8 9 25>;
+        backtick { 
+            bindings = <&kp GRAVE>;
+            key-positions = <26 10>;
         };
 
         colon_equals {
             bindings = <&colon_equals>;
-            timeout-ms = <50>;
             key-positions = <14 26>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <30 31 32>;
         };
 
         tmux_prefix {
@@ -185,18 +191,6 @@
     };
 
     macros {
-        delete_word_macos: delete_word_macos {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(BACKSPACE)>;
-        };
-
-        delete_word_linux: delete_word_linux {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(BACKSPACE)>;
-        };
-
         equals_arrow: equals_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -241,7 +235,7 @@
             display-name = "Symbols";
             bindings = <
   &trans   &kp N1            &kp N2        &kp N3     &kp N4       &kp N5                                              &msc SCRL_UP                           &kp N6      &kp N7          &kp N8         &kp N9                 &kp N0                  &trans
-  &trans   &kp UNDERSCORE    &kp MINUS     &kp PLUS   &kp EQUAL    &kp GRAVE                          &msc SCRL_LEFT   &mkp RCLK        &msc SCRL_RIGHT       &kp TILDE   &none           &kp SLASH      &kp DOT                &kp COMMA               &trans
+  &trans   &kp UNDERSCORE    &kp MINUS     &kp PLUS   &kp EQUAL    &kp GRAVE                          &msc SCRL_LEFT   &mkp RCLK        &msc SCRL_RIGHT       &kp TILDE   &kp DOT         &kp SLASH      &kp COMMA              &trans                  &trans
   &trans   &kp EXCLAMATION   &kp AT_SIGN   &kp HASH   &kp DOLLAR   &kp PERCENT       &kp C_MUTE                        &msc SCRL_DOWN                         &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans
                                            &trans     &trans       &trans                                                                                     &kp SPACE   &trans          &trans
             >;
@@ -252,9 +246,9 @@
         Fnavol {
             display-name = "Fnavol";
             bindings = <
-  &kp F1   &kp F2                 &kp F3                 &kp F4           &kp F5             &kp F6                                         &mmv MOVE_UP                           &kp F7           &kp F8     &kp F9         &kp F10     &kp F11      &kp F12
-  &trans   &kp C_VOL_DN           &kp C_VOLUME_UP        &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT                    &mmv MOVE_LEFT   &mkp LCLK        &mmv MOVE_RIGHT       &kp LEFT_ARROW   &kp DOWN   &kp UP_ARROW   &kp RIGHT   &kp C_MUTE   &trans
-  &trans   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   &trans           &trans             &trans           &trans                        &mmv MOVE_DOWN                         &kp HOME         &trans     &trans         &kp END     &trans       &trans
+  &kp F1   &kp F2                 &kp F3                 &kp F4           &kp F5             &kp F6                                         &mmv MOVE_UP                           &kp F7           &kp F8     &kp F9         &kp F10     &kp F11   &kp F12
+  &trans   &kp C_VOL_DN           &kp C_VOLUME_UP        &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT                    &mmv MOVE_LEFT   &mkp LCLK        &mmv MOVE_RIGHT       &kp LEFT_ARROW   &kp DOWN   &kp UP_ARROW   &kp RIGHT   &trans    &trans
+  &trans   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC   &trans           &trans             &kp C_MUTE       &trans                        &mmv MOVE_DOWN                         &kp HOME         &trans     &trans         &kp END     &trans    &trans
                                                          &trans           &trans             &trans                                                                                &trans           &trans     &trans
             >;
 
