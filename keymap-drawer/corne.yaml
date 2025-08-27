@@ -1,54 +1,54 @@
 layout: {zmk_keyboard: corne}
 layers:
   Base:
-  - {t: Mouse, h: toggle}
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
   - R
   - T
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
+  - {t: ▽, type: trans}
   - Y
   - U
   - I
   - O
   - P
-  - \
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - A
-  - S
-  - D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - F
   - G
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
-  - $$phosphor:regular/mouse-left-click$$
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - ;
-  - ''''
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
   - V
   - B
   - $$lucide:volume-x$$
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
   - {t: '$$mdi:keyboard-return$$', h: Fnavol}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ▽, type: trans}
   Symbols:
   - {t: ▽, type: trans}
   - '1'
@@ -56,7 +56,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
@@ -69,14 +69,14 @@ layers:
   - +
   - '='
   - '`'
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
-  - $$phosphor:regular/mouse-right-click$$
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '~'
-  - {t: '$$tabler:time-duration-off$$', type: none}
-  - /
   - .
+  - /
   - ','
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
@@ -85,7 +85,7 @@ layers:
   - $
   - '%'
   - $$lucide:volume-x$$
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
+  - {t: ▽, type: trans}
   - ^
   - '&'
   - '*'
@@ -99,65 +99,86 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fnavol:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
+  - {t: ▽, type: trans}
   - F6
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$lucide:volume-1$$
   - $$lucide:volume-2$$
   - $$phosphor:regular/skip-back$$
   - $$phosphor:regular/play-pause$$
   - $$phosphor:regular/skip-forward$$
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
-  - $$phosphor:regular/mouse-left-click$$
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $$lucide:chevron-left$$
   - $$lucide:chevron-down$$
   - $$lucide:chevron-up$$
   - $$lucide:chevron-right$$
-  - $$lucide:volume-x$$
+  - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$lucide:sun-dim$$
   - $$lucide:sun$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$lucide:volume-x$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - END
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Mouse, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$phosphor:regular/mouse-left-click$$
+  - $$phosphor:regular/mouse-middle-click$$
+  - $$phosphor:regular/mouse-right-click$$
+  - '&macos_homerow'
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
-  - '&macos_homerow'
-  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
+  - $$phosphor:regular/arrow-bend-up-left$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,39 +186,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-left$$'}
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
+  - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-down$$'}
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
-  - $$phosphor:regular/mouse-middle-click$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$phosphor:regular/mouse-middle-click$$
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$phosphor:regular/arrow-bend-up-left$$
-  - $$phosphor:regular/mouse-left-click$$
-  - $$phosphor:regular/mouse-right-click$$
   - $$phosphor:regular/arrow-bend-up-right$$
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Aura:
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - {t: '$$phosphor:regular/bluetooth-connected$$', h: '1'}
   - {t: '$$phosphor:regular/bluetooth-connected$$', h: '2'}
   - {t: '$$phosphor:regular/bluetooth-connected$$', h: '3'}
@@ -230,26 +230,26 @@ layers:
   - $$lucide:usb$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [42, 47]
+- p: [44, 45]
   k: Aura
-- p: [17, 23]
-  k: '&delete_word_macos'
+- p: [23, 43]
+  k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
 - p: [4, 15, 16]
   k: (
 - p: [8, 24, 25]
