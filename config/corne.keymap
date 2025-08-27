@@ -27,6 +27,12 @@
 
 &lt { tapping-term-ms = <175>; };
 
+&mt {
+    flavor = "balanced";
+    require-prior-idle-ms = <100>;
+    quick-tap-ms = <150>;
+};
+
 / {
     behaviors {
         td0: td0 {
