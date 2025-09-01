@@ -2,46 +2,46 @@ layout: {zmk_keyboard: corne}
 layers:
   Base:
   - {t: Mouse, h: toggle}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - A
-  - S
-  - D
-  - F
+  - V
+  - L
+  - H
   - G
+  - K
+  - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
+  - Q
+  - F
+  - O
+  - U
+  - J
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - S
+  - R
+  - N
+  - T
+  - B
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-left$$'}
   - $$phosphor:regular/mouse-left-click$$
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-right$$'}
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
+  - Y
+  - C
+  - A
+  - E
+  - I
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
-  - C
-  - V
-  - B
+  - M
+  - D
+  - P
   - $$lucide:volume-x$$
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
-  - N
-  - M
-  - ','
+  - ''''
+  - W
   - .
-  - /
+  - ;
+  - ','
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
