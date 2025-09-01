@@ -73,10 +73,10 @@ layers:
   - $$phosphor:regular/mouse-right-click$$
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-right$$'}
   - '~'
-  - {t: '$$tabler:time-duration-off$$', type: none}
-  - /
   - .
+  - /
   - ','
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
@@ -125,14 +125,14 @@ layers:
   - $$lucide:chevron-down$$
   - $$lucide:chevron-up$$
   - $$lucide:chevron-right$$
-  - $$lucide:volume-x$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$lucide:sun-dim$$
   - $$lucide:sun$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$lucide:volume-x$$
   - {t: ▽, type: trans}
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - HOME
@@ -248,8 +248,8 @@ layers:
 combos:
 - p: [42, 47]
   k: Aura
-- p: [17, 23]
-  k: '&delete_word_macos'
+- p: [23, 43]
+  k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
 - p: [4, 15, 16]
   k: (
 - p: [8, 24, 25]
@@ -262,6 +262,10 @@ combos:
   k: '{'
 - p: [37, 24, 25]
   k: '}'
+- p: [15, 16, 18]
+  k: <
+- p: [22, 24, 25]
+  k: '>'
 - p: [14, 15, 16]
   k: =>
 - p: [24, 25, 26]
@@ -270,14 +274,12 @@ combos:
   k: \
 - p: [37, 24, 10]
   k: /
-- p: [15, 3, 4]
-  k: <
-- p: [8, 9, 25]
-  k: '>'
-- p: [14, 26]
-  k: :=
 - p: [30, 31, 32]
   k: '|'
+- p: [26, 10]
+  k: '`'
+- p: [14, 26]
+  k: :=
 - p: [15, 26]
   k: $$simple_icons:tmux$$
 - p: [25, 26]
