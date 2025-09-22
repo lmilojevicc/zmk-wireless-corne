@@ -2,6 +2,10 @@
 include:
   - board: corne_right
     shield: nice_epaper
+    artifact-name: corne_right
+  - board: corne_left
+    shield: nice_epaper
+    artifact-name: corne_left
   - board: corne_left
     shield: nice_epaper
     snippet: studio-rpc-usb-uart

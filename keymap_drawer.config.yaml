@@ -70,37 +70,37 @@ parse_config:
     # Mouse Scroll
     "&msc SCRL_UP":
       hold: $$lucide:chevron-up$$
-      shifted: ''
+      shifted: ""
       tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_DOWN":
       hold: $$lucide:chevron-down$$
-      shifted: ''
+      shifted: ""
       tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_LEFT":
       hold: $$lucide:chevron-left$$
-      shifted: ''
+      shifted: ""
       tap: $$phosphor:regular/mouse-simple$$
     "&msc SCRL_RIGHT":
       hold: $$lucide:chevron-right$$
-      shifted: ''
+      shifted: ""
       tap: $$phosphor:regular/mouse-simple$$
 
     # Mouse Cursor Movement
     "&mmv MOVE_LEFT":
       hold: $$lucide:chevron-left$$
-      shifted: ''
+      shifted: ""
       tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_RIGHT":
       hold: $$lucide:chevron-right$$
-      shifted: ''
+      shifted: ""
       tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_UP":
       hold: $$lucide:chevron-up$$
-      shifted: ''
+      shifted: ""
       tap: $$lucide:mouse-pointer-2$$
     "&mmv MOVE_DOWN":
       hold: $$lucide:chevron-down$$
-      shifted: ''
+      shifted: ""
       tap: $$lucide:mouse-pointer-2$$
 
     # Mouse Clicks
@@ -161,7 +161,7 @@ parse_config:
     "&ext_power EP_ON":
       tap: $$lucide:power$$
 
-    # System 
+    # System
     "&sys_reset":
       type: bootloader
       tap: $$mdi:backup-restore$$
@@ -170,80 +170,80 @@ parse_config:
 
   # ZMK
   zmk_keycode_map:
-    EXCLAMATION: '!'
-    EXCL: '!'
-    AT_SIGN: '@'
-    AT: '@'
-    HASH: '#'
-    POUND: '#'
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
     DOLLAR: $
     DLLR: $
-    PERCENT: '%'
-    PRCNT: '%'
+    PERCENT: "%"
+    PRCNT: "%"
     CARET: ^
-    AMPERSAND: '&'
-    AMPS: '&'
-    ASTERISK: '*'
-    ASTRK: '*'
-    STAR: '*'
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
     LEFT_PARENTHESIS: (
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: '='
+    EQUAL: "="
     PLUS: +
-    MINUS: '-'
+    MINUS: "-"
     UNDERSCORE: _
     UNDER: _
     SLASH: /
     FSLH: /
-    QUESTION: '?'
-    QMARK: '?'
+    QUESTION: "?"
+    QMARK: "?"
     BACKSLASH: \
     BSLH: \
-    PIPE: '|'
+    PIPE: "|"
     NON_US_BACKSLASH: \
-    PIPE2: '|'
-    NON_US_BSLH: '|'
+    PIPE2: "|"
+    NON_US_BSLH: "|"
     SEMICOLON: ;
     SEMI: ;
-    COLON: ':'
-    SINGLE_QUOTE: ''''
-    SQT: ''''
-    APOSTROPHE: ''''
-    APOS: ''''
+    COLON: ":"
+    SINGLE_QUOTE: "'"
+    SQT: "'"
+    APOSTROPHE: "'"
+    APOS: "'"
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: ','
+    COMMA: ","
     LESS_THAN: <
     LT: <
     PERIOD: .
     DOT: .
-    GREATER_THAN: '>'
-    GT: '>'
-    LEFT_BRACKET: '['
-    LBKT: '['
-    LEFT_BRACE: '{'
-    LBRC: '{'
-    RIGHT_BRACKET: ']'
-    RBKT: ']'
-    RIGHT_BRACE: '}'
-    RBRC: '}'
-    GRAVE: '`'
-    TILDE: '~'
-    NON_US_HASH: '#'
-    NUHS: '#'
-    TILDE2: '~'
-    N1: '1'
-    N2: '2'
-    N3: '3'
-    N4: '4'
-    N5: '5'
-    N6: '6'
-    N7: '7'
-    N8: '8'
-    N9: '9'
-    N0: '0'
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET: "["
+    LBKT: "["
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET: "]"
+    RBKT: "]"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    GRAVE: "`"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
+    N1: "1"
+    N2: "2"
+    N3: "3"
+    N4: "4"
+    N5: "5"
+    N6: "6"
+    N7: "7"
+    N8: "8"
+    N9: "9"
+    N0: "0"
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
@@ -272,9 +272,9 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
 
     PSCRN: $$mdi:printer-outline$$
-    PAGE_UP: 'PgUp'
-    PAGE_DOWN: 'PgDn'
-    INSERT: 'Ins'
+    PAGE_UP: "PgUp"
+    PAGE_DOWN: "PgDn"
+    INSERT: "Ins"
     "&caps_word": $$mdi:alpha-w-box$$
 
     # Arrows
@@ -335,8 +335,6 @@ parse_config:
 
   zmk_combos:
     tmux_prefix:
-      key: "$$simple_icons:tmux$$"
+      key: "tmux"
     terminal_prefix:
-      key: "$$phosphor:regular/terminal$$"
-    leader_key_mac_os:
-      key: "$$phosphor:regular/keyboard$$"
+      key: "term"

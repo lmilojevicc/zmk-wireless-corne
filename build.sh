@@ -28,9 +28,6 @@ west zephyr-export
 # Left side with Studio configuration
 west build $PRISTINE_FLAG -s zmk/app -d build/left -b corne_left -- \
   -DSHIELD="nice_epaper" \
-  -DSNIPPET="studio-rpc-usb-uart" \
-  -DCONFIG_ZMK_STUDIO=y \
-  -DCONFIG_ZMK_STUDIO_LOCKING=n \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 # Right side standard build
