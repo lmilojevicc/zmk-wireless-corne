@@ -325,11 +325,9 @@ combos:
   k: /
 - p: [30, 31, 32]
   k: '|'
-- p: [26, 10]
-  k: '`'
 - p: [14, 26]
   k: :=
 - p: [15, 26]
-  k: $$simple_icons:tmux$$
+  k: tmux
 - p: [25, 26]
-  k: $$phosphor:regular/terminal$$
+  k: term
