@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   Qwerty:
-  - {t: Mouse, h: toggle}
+  - '|'
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: Focal, h: toggle}
+  - \
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
   Focal:
-  - {t: Mouse, h: toggle}
+  - '|'
   - V
   - L
   - H
@@ -62,7 +62,7 @@ layers:
   - O
   - U
   - J
-  - {t: Qwerty, h: toggle}
+  - \
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - S
   - R
@@ -201,10 +201,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$phosphor:regular/mouse-simple$$', h: '$$lucide:chevron-up$$'}
-  - '&macos_homerow'
-  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-esc$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-up$$'}
   - {t: ▽, type: trans}
@@ -239,12 +239,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - $$phosphor:regular/arrow-bend-up-left$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$phosphor:regular/mouse-left-click$$
   - $$phosphor:regular/mouse-right-click$$
+  - $$mdi:keyboard-esc$$
   - $$phosphor:regular/arrow-bend-up-right$$
-  - {t: ▽, type: trans}
   Aura:
   - '&studio_unlock'
   - {t: '$$phosphor:regular/bluetooth-connected$$', h: '1'}
@@ -294,9 +294,68 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  Excali:
+  - P
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - Z
+  - H
+  - C
+  - V
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
+- p: [47, 12]
+  k: {t: Qwerty, h: toggle}
+  l: [Focal]
+- p: [47, 12]
+  k: {t: Focal, h: toggle}
+  l: [Qwerty]
+- p: [12, 44]
+  k: {t: Mouse, h: toggle}
 - p: [42, 47]
   k: Aura
+- p: [0, 42]
+  k: {t: Excali, h: toggle}
 - p: [23, 43]
   k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
 - p: [4, 15, 16]
