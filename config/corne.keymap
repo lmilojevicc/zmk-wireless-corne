@@ -91,33 +91,38 @@
         qwerty {
             bindings = <&to 0>;
             key-positions = <47 12>;
-            timeout-ms = <200>;
             layers = <1>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         focal {
             bindings = <&to 1>;
             key-positions = <47 12>;
-            timeout-ms = <200>;
             layers = <0>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         mouse {
             bindings = <&tog 4>;
             key-positions = <12 44>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         aura {
             bindings = <&mo 5>;
             key-positions = <42 47>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         creative {
             bindings = <&tog 6>;
             key-positions = <0 42>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         delete_word {
@@ -228,12 +233,6 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp EQUAL>;
-        };
-
-        macos_homerow: macos_homerow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LG(SPACE)) &to 0>;
         };
 
         go_ch: go_ch {

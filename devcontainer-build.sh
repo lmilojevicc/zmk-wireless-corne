@@ -25,12 +25,12 @@ west zephyr-export
 
 # Left side build
 west build $PRISTINE_FLAG -s zmk/app -d build/left -b corne_left -- \
-  -DSHIELD="nice_epaper" \
+  -DSHIELD="nice_view_adapter nice_view_gem" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 # Right side build
 west build $PRISTINE_FLAG -s zmk/app -d build/right -b corne_right -- \
-  -DSHIELD="nice_epaper" \
+  -DSHIELD="nice_view_adapter nice_view_gem" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 mkdir -p build/firmware
