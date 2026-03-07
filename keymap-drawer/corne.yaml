@@ -185,8 +185,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$lucide:mouse-pointer-2$$', h: '$$lucide:chevron-down$$'}
   - HOME
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
+  - PG UP
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
