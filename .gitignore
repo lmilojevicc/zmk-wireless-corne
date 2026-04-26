@@ -4,5 +4,5 @@ modules/
 nice-view-gem/
 tools/
 .west/
-zephyr/*
+zephyr/
 **/.DS_Store
