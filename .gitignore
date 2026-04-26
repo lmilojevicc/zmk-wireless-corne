@@ -1,8 +1,8 @@
 build/
 zmk/
 modules/
+nice-view-gem/
 tools/
 .west/
 zephyr/*
-!zephyr/module.yml
 **/.DS_Store

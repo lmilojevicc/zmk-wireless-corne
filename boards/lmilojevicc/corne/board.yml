@@ -1,0 +1,13 @@
+boards:
+  - name: corne_left
+    vendor: lmilojevicc
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
+  - name: corne_right
+    vendor: lmilojevicc
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk

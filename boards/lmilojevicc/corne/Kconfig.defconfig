@@ -18,17 +18,6 @@ if BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
 config BOARD
     default "corne"
 
-config BOARD_ENABLE_DCDC
-    bool "Enable DCDC mode"
-    select SOC_DCDC_NRF52X
-    default y
-
-config BOARD_ENABLE_DCDC_HV
-    bool "Enable High Voltage DCDC converter"
-    default y
-    select SOC_DCDC_NRF52X_HV
-    depends on (BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT)
-
 config ZMK_SLEEP
     default y
 

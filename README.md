@@ -50,17 +50,17 @@ west zephyr-export
 ### Build The Firmware Manually
 
 ```bash
-west build -s zmk/app -d build/left -b corne_left -- /
--DSHIELD="nice_epaper"
+west build -s zmk/app -d build/left -b corne_left//zmk -- \
+  -DSHIELD="nice_view_adapter nice_view_gem"
 
-west build -s zmk/app -d build/right -b corne_right -- /
--DSHIELD="nice_epaper"
+west build -s zmk/app -d build/right -b corne_right//zmk -- \
+  -DSHIELD="nice_view_adapter nice_view_gem"
 ```
 
 ### Build The Firmware With Bash Script
 
 ```bash
-chomd +x ./devcontainer-build.sh
+chmod +x ./devcontainer-build.sh
 ./devcontainer-build.sh
 ```
 

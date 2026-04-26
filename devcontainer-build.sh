@@ -1,11 +1,16 @@
 #!/bin/bash
 
+set -euo pipefail
+
 GREEN='\033[0;32m'
 NC='\033[0m'
 
 PROJECT_ROOT=$(pwd)
 BOARD_LEFT="corne_left"
 BOARD_RIGHT="corne_right"
+BOARD_LEFT_TARGET="corne_left//zmk"
+BOARD_RIGHT_TARGET="corne_right//zmk"
+SHIELD="nice_view_adapter nice_view_gem"
 
 PRISTINE_FLAG=""
 
@@ -24,13 +29,13 @@ west update
 west zephyr-export
 
 # Left side build
-west build $PRISTINE_FLAG -s zmk/app -d build/left -b corne_left -- \
-  -DSHIELD="nice_view_adapter nice_view_gem" \
+west build $PRISTINE_FLAG -s zmk/app -d build/left -b "$BOARD_LEFT_TARGET" -- \
+  -DSHIELD="$SHIELD" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 # Right side build
-west build $PRISTINE_FLAG -s zmk/app -d build/right -b corne_right -- \
-  -DSHIELD="nice_view_adapter nice_view_gem" \
+west build $PRISTINE_FLAG -s zmk/app -d build/right -b "$BOARD_RIGHT_TARGET" -- \
+  -DSHIELD="$SHIELD" \
   -DZMK_CONFIG="$PROJECT_ROOT/config"
 
 mkdir -p build/firmware
@@ -40,5 +45,5 @@ mv build/right/zephyr/zmk.uf2 build/firmware/$BOARD_RIGHT.uf2
 printf "\n===================================================\n"
 echo -e "${GREEN}Build process completed successfully!${NC}"
 echo -e "${GREEN}You can find the built firmware at:${NC}"
-echo -e "${GREEN}- Left side: $PROJECT_ROOT/build/firmware/$BOARD_LEFT${NC}"
-echo -e "${GREEN}- Right side: $PROJECT_ROOT/build/firmware/$BOARD_RIGHT${NC}"
+echo -e "${GREEN}- Left side: $PROJECT_ROOT/build/firmware/$BOARD_LEFT.uf2${NC}"
+echo -e "${GREEN}- Right side: $PROJECT_ROOT/build/firmware/$BOARD_RIGHT.uf2${NC}"

@@ -8,10 +8,12 @@ features:
   - keys
   - display
   - underglow
+  - backlight
   - encoder
+  - studio
 outputs:
   - usb
   - ble
 siblings:
-  - corne_left
-  - corne_right
+  - corne_left//zmk
+  - corne_right//zmk
