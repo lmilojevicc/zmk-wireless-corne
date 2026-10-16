@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
   - {t: '$$mdi:keyboard-return$$', h: Fnavol}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   Focal:
   - '|'
   - V
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
   - {t: '$$mdi:keyboard-return$$', h: Fnavol}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&caps_word', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   Symbols:
   - {t: ▽, type: trans}
   - '1'
